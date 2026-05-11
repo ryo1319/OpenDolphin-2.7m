@@ -266,11 +266,11 @@ public class KarteDocumentViewer extends AbstractChartDocument implements Docume
             });
         }
         
-//s.oh^ 2013/06/13 カルテ履歴が複数の場合、カルテ削除メニューを無効
+//s.oh^ 2013/06/13 カルテ履歴が複数の場合でもカルテ削除を有効化する
         if(karteList != null && karteList.size() > 0) {
             boolean canEdit = !isReadOnly();
-            boolean singleSelected = (karteList.size() == 1);
-            getContext().enabledAction(GUIConst.ACTION_DELETE, (!showModified && canEdit && singleSelected));
+            // 修正履歴表示中以外かつ編集可能であれば削除を許可
+            getContext().enabledAction(GUIConst.ACTION_DELETE, (!showModified && canEdit));
         }
 //s.oh$
 
@@ -471,11 +471,10 @@ public class KarteDocumentViewer extends AbstractChartDocument implements Docume
             showKarteListH();
         }
         
-//s.oh^ 2013/06/13 カルテ履歴が複数の場合、カルテ削除メニューを無効
+//s.oh^ 2013/06/13 カルテ履歴が複数の場合、カルテ削除メニューを有効化
     if(karteList != null) {
         boolean canEdit = !isReadOnly();
-        boolean singleSelected = (karteList.size() == 1);
-        getContext().enabledAction(GUIConst.ACTION_DELETE, (!showModified && canEdit && singleSelected));
+        getContext().enabledAction(GUIConst.ACTION_DELETE, (!showModified && canEdit));
     }
 //s.oh$
     }
@@ -1378,10 +1377,9 @@ public class KarteDocumentViewer extends AbstractChartDocument implements Docume
             getContext().enabledAction(GUIConst.ACTION_NEW_DOCUMENT, canEdit);   // 新規文書
             getContext().enabledAction(GUIConst.ACTION_MODIFY_KARTE, canEdit);   // 修正
             // delete^
-//s.oh^ 2013/06/13 カルテ履歴が複数の場合、カルテ削除メニューを無効
-            //getContext().enabledAction(GUIConst.ACTION_DELETE, (!showModified && canEdit)); // 削除 履歴表示中
-            boolean singleSelected = (karteList.size() == 1);
-            getContext().enabledAction(GUIConst.ACTION_DELETE, (!showModified && canEdit && singleSelected));
+//s.oh^ 2013/06/13 カルテ履歴が複数の場合でもカルテ削除を有効化する
+            // 修正履歴表示中以外かつ編集可能であれば削除を許可
+            getContext().enabledAction(GUIConst.ACTION_DELETE, (!showModified && canEdit));
 //s.oh$
 //s.oh^ 2014/08/19 ID権限
             //getContext().enabledAction(GUIConst.ACTION_PRINT, true);             // 印刷
