@@ -8,9 +8,9 @@ import java.awt.Color;
 import java.beans.PropertyVetoException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JDesktopPane;
-import javax.swing.JFrame;
-import javax.swing.JInternalFrame;
+import jakarta.swing.JDesktopPane;
+import jakarta.swing.JFrame;
+import jakarta.swing.JInternalFrame;
 import open.dolphin.utilities.common.MDIEvent;
 
 /**

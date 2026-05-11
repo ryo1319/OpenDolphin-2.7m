@@ -8,9 +8,9 @@ import java.nio.file.Paths;
 import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import javax.swing.ImageIcon;
-import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
+import jakarta.swing.ImageIcon;
+import jakarta.swing.JFileChooser;
+import jakarta.swing.JOptionPane;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
 

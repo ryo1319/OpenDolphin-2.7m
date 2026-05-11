@@ -5,8 +5,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import javax.swing.JButton;
-import javax.swing.JToggleButton;
+import jakarta.swing.JButton;
+import jakarta.swing.JToggleButton;
 
 /**
  * Button Action 登録

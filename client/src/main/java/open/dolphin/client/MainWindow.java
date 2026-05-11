@@ -3,7 +3,7 @@ package open.dolphin.client;
 import java.awt.Component;
 import java.awt.print.PageFormat;
 import java.util.HashMap;
-import javax.swing.*;
+import jakarta.swing.*;
 import open.dolphin.helper.MenuSupport;
 import open.dolphin.infomodel.PatientVisitModel;
 

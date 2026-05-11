@@ -1,7 +1,7 @@
 package open.dolphin.helper;
 
 import java.awt.*;
-import javax.swing.*;
+import jakarta.swing.*;
 import open.dolphin.client.ClientContext;
 
 /**

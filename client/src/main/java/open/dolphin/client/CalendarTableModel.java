@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.GregorianCalendar;
 import java.util.Iterator;
-import javax.swing.table.AbstractTableModel;
+import jakarta.swing.table.AbstractTableModel;
 import open.dolphin.infomodel.SimpleDate;
 
 

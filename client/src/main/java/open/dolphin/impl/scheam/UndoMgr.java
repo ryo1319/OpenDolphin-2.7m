@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
-import javax.swing.JButton;
+import jakarta.swing.JButton;
 import open.dolphin.impl.scheam.holder.DrawingHolder;
 
 /**

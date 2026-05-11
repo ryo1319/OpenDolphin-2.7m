@@ -8,8 +8,8 @@ package open.dolphin.hiro;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Enumeration;
-import javax.swing.AbstractButton;
-import javax.swing.ButtonGroup;
+import jakarta.swing.AbstractButton;
+import jakarta.swing.ButtonGroup;
 import open.dolphin.infomodel.IInfoModel;
 
 /**

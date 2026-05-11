@@ -9,7 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.SwingWorker;
+import jakarta.swing.SwingWorker;
 import open.dolphin.client.ChartEventHandler;
 import open.dolphin.infomodel.ChartEventModel;
 import open.dolphin.infomodel.PatientVisitModel;

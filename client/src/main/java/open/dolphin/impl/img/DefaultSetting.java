@@ -6,7 +6,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Properties;
 import java.util.ResourceBundle;
-import javax.swing.*;
+import jakarta.swing.*;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
 

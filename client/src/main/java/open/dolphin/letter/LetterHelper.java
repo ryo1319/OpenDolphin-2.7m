@@ -6,9 +6,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JLabel;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
+import jakarta.swing.JLabel;
+import jakarta.swing.JTextArea;
+import jakarta.swing.JTextField;
 import open.dolphin.infomodel.ModelUtils;
 
 /**

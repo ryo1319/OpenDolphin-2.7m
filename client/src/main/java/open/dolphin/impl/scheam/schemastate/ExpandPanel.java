@@ -6,8 +6,8 @@
 
 package open.dolphin.impl.scheam.schemastate;
 
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import jakarta.swing.event.ChangeEvent;
+import jakarta.swing.event.ChangeListener;
 
 /**
  *

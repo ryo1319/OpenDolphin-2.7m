@@ -2,8 +2,8 @@ package open.dolphin.stampbox;
 
 import java.util.Enumeration;
 import java.util.HashMap;
-import javax.swing.*;
-import javax.swing.tree.DefaultMutableTreeNode;
+import jakarta.swing.*;
+import jakarta.swing.tree.DefaultMutableTreeNode;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.LocalStampTreeNodeTransferable;
 import open.dolphin.infomodel.ModuleInfoBean;

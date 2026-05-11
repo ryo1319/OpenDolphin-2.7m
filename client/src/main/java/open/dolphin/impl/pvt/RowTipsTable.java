@@ -4,7 +4,7 @@ package open.dolphin.impl.pvt;
 import java.awt.event.MouseEvent;
 import java.text.MessageFormat;
 import java.util.Date;
-import javax.swing.JTable;
+import jakarta.swing.JTable;
 import open.dolphin.client.ClientContext;
 import open.dolphin.infomodel.ModelUtils;
 import open.dolphin.infomodel.PatientVisitModel;

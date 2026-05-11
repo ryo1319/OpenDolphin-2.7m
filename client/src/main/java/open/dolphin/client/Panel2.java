@@ -8,8 +8,8 @@ import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
+import jakarta.swing.JPanel;
+import jakarta.swing.SwingUtilities;
 
 /**
  *

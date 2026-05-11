@@ -1,7 +1,7 @@
 package open.dolphin.impl.scheam;
 
 import java.awt.event.ActionEvent;
-import javax.swing.*;
+import jakarta.swing.*;
 
 /**
  * Shortcut key を登録する

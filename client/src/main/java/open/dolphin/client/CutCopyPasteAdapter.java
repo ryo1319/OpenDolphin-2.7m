@@ -6,11 +6,11 @@ import java.awt.datatransfer.Transferable;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.KeyStroke;
-import javax.swing.text.DefaultEditorKit;
-import javax.swing.text.JTextComponent;
+import jakarta.swing.JMenuItem;
+import jakarta.swing.JPopupMenu;
+import jakarta.swing.KeyStroke;
+import jakarta.swing.text.DefaultEditorKit;
+import jakarta.swing.text.JTextComponent;
 
 /**
  *

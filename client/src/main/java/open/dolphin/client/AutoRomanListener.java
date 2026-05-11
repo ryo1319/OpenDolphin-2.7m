@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
-import javax.swing.text.JTextComponent;
+import jakarta.swing.text.JTextComponent;
 
 /**
  *

@@ -3,7 +3,7 @@ package open.dolphin.helper;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.concurrent.ExecutionException;
-import javax.swing.SwingWorker;
+import jakarta.swing.SwingWorker;
 
 /**
  * @author Kazushi Minagawa, Digital Globe, Inc.

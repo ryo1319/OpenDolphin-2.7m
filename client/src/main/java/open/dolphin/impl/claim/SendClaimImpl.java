@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-import javax.swing.JOptionPane;
+import jakarta.swing.JOptionPane;
 import open.dolphin.client.ClaimMessageEvent;
 import open.dolphin.client.ClaimMessageListener;
 import open.dolphin.client.ClientContext;

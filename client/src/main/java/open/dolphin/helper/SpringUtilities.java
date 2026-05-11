@@ -31,8 +31,8 @@
 
 package open.dolphin.helper;
 
-import javax.swing.*;
-import javax.swing.SpringLayout;
+import jakarta.swing.*;
+import jakarta.swing.SpringLayout;
 import java.awt.*;
 
 /**

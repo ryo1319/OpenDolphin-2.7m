@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.util.List;
-import javax.swing.JFrame;
+import jakarta.swing.JFrame;
 import open.dolphin.infomodel.*;
 
 /**

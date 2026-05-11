@@ -1,8 +1,8 @@
 package open.dolphin.client;
 
 import java.beans.PropertyChangeListener;
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
+import jakarta.swing.ImageIcon;
+import jakarta.swing.JPanel;
 
 
 /**

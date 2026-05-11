@@ -2,10 +2,10 @@ package open.dolphin.client;
 import java.awt.Toolkit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.PlainDocument;
+import jakarta.swing.text.AbstractDocument;
+import jakarta.swing.text.AttributeSet;
+import jakarta.swing.text.BadLocationException;
+import jakarta.swing.text.PlainDocument;
 
 /**
  * RegexConstrainedDocument

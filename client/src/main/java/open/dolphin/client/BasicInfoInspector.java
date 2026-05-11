@@ -2,10 +2,10 @@ package open.dolphin.client;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.SpringLayout;
-import javax.swing.SwingConstants;
+import jakarta.swing.JLabel;
+import jakarta.swing.JPanel;
+import jakarta.swing.SpringLayout;
+import jakarta.swing.SwingConstants;
 import open.dolphin.helper.SpringUtilities;
 import open.dolphin.infomodel.SimpleAddressModel;
 import open.dolphin.project.Project;

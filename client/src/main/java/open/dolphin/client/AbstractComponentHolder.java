@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.awt.Cursor;
 import java.awt.event.*;
-import javax.swing.*;
+import jakarta.swing.*;
 
 /**
  * ComponentHolder

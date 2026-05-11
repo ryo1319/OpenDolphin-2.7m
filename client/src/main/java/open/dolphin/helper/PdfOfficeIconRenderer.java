@@ -1,10 +1,10 @@
 package open.dolphin.helper;
 
 import java.awt.Component;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JList;
+import jakarta.swing.DefaultListCellRenderer;
+import jakarta.swing.ImageIcon;
+import jakarta.swing.JLabel;
+import jakarta.swing.JList;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIConst;
 import open.dolphin.client.NameValuePair;

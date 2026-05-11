@@ -13,11 +13,11 @@ import java.nio.channels.FileChannel;
 import java.util.UUID;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.AbstractAction;
-import javax.swing.BorderFactory;
-import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
-import javax.swing.text.Position;
+import jakarta.swing.AbstractAction;
+import jakarta.swing.BorderFactory;
+import jakarta.swing.JOptionPane;
+import jakarta.swing.JPopupMenu;
+import jakarta.swing.text.Position;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.infomodel.AttachmentModel;
 

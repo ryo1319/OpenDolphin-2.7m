@@ -3,7 +3,7 @@ package open.dolphin.client;
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.text.MessageFormat;
-import javax.swing.*;
+import jakarta.swing.*;
 
 /**
  * Chart plugin で共通に利用するステータスパネル。

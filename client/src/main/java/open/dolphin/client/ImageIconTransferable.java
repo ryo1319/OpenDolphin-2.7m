@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.awt.datatransfer.*;
 import java.io.IOException;
-import javax.swing.ImageIcon;
+import jakarta.swing.ImageIcon;
 
      
 /**

@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.awt.Window;
-import javax.swing.*;
+import jakarta.swing.*;
 
 /**
  * SaveDialog

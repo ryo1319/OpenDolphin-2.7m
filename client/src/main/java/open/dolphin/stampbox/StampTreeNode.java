@@ -1,6 +1,6 @@
 package open.dolphin.stampbox;
 
-import javax.swing.tree.DefaultMutableTreeNode;
+import jakarta.swing.tree.DefaultMutableTreeNode;
 import open.dolphin.infomodel.ModuleInfoBean;
 
 /**

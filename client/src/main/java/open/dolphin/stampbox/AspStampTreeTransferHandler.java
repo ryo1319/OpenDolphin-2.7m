@@ -2,8 +2,8 @@ package open.dolphin.stampbox;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
-import javax.swing.JComponent;
-import javax.swing.TransferHandler;
+import jakarta.swing.JComponent;
+import jakarta.swing.TransferHandler;
 import open.dolphin.client.LocalStampTreeNodeTransferable;
 
 /**

@@ -7,7 +7,7 @@ import java.awt.event.MouseMotionListener;
 import java.awt.geom.Ellipse2D;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import javax.swing.JComponent;
+import jakarta.swing.JComponent;
 
 /**
  * ColorChooserLabel

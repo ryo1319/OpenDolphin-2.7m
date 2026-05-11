@@ -20,8 +20,8 @@ import java.util.*;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.logging.Logger;
-import javax.imageio.ImageIO;
-import javax.swing.*;
+import jakarta.imageio.ImageIO;
+import jakarta.swing.*;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.exception.DolphinException;
 import open.dolphin.helper.DBTask;
@@ -38,7 +38,7 @@ import open.dolphin.util.ZenkakuUtils;
 import java.text.SimpleDateFormat;//以下追加
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
-import javax.swing.text.Segment;
+import jakarta.swing.text.Segment;
 
 
 /**

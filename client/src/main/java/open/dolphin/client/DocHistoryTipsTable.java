@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.awt.event.MouseEvent;
-import javax.swing.JTable;
+import jakarta.swing.JTable;
 import open.dolphin.infomodel.DocInfoModel;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.table.ListTableModel;

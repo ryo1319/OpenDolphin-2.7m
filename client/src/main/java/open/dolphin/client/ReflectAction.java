@@ -3,8 +3,8 @@ package open.dolphin.client;
 import java.awt.event.ActionEvent;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import javax.swing.AbstractAction;
-import javax.swing.Icon;
+import jakarta.swing.AbstractAction;
+import jakarta.swing.Icon;
 
 /**
  *

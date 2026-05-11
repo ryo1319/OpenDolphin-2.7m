@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
-import javax.swing.ActionMap;
-import javax.swing.JComponent;
+import jakarta.swing.ActionMap;
+import jakarta.swing.JComponent;
 
 /**
  *

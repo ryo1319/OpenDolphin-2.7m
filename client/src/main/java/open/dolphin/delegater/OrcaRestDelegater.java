@@ -6,7 +6,7 @@ import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.MediaType;
 import open.dolphin.converter.DocumentModelConverter;
 import open.dolphin.converter.InteractionCodeListConverter;
 import open.dolphin.infomodel.*;

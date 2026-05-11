@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.io.Serializable;
-import javax.swing.ImageIcon;
+import jakarta.swing.ImageIcon;
 
 /**
  * ImageEntry

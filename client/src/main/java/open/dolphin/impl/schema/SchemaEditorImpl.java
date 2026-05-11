@@ -9,7 +9,7 @@ import java.awt.image.BufferedImage;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.ArrayList;
-import javax.swing.*;
+import jakarta.swing.*;
 import open.dolphin.client.AutoKanjiListener;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.SchemaEditor;

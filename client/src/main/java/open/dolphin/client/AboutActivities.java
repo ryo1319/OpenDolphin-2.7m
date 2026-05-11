@@ -9,8 +9,8 @@ import java.awt.event.ActionEvent;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import javax.swing.*;
-import javax.swing.table.AbstractTableModel;
+import jakarta.swing.*;
+import jakarta.swing.table.AbstractTableModel;
 import open.dolphin.infomodel.ActivityModel;
 import open.dolphin.table.StripeTableCellRenderer;
 

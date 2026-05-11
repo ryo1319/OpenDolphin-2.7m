@@ -3,8 +3,8 @@ package open.dolphin.stampbox;
 import java.awt.datatransfer.Transferable;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.JComponent;
-import javax.swing.TransferHandler;
+import jakarta.swing.JComponent;
+import jakarta.swing.TransferHandler;
 
 /**
  *

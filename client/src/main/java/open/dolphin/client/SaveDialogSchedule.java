@@ -4,9 +4,9 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
+import jakarta.swing.*;
+import jakarta.swing.event.DocumentEvent;
+import jakarta.swing.event.DocumentListener;
 import open.dolphin.project.Project;
 
 /**

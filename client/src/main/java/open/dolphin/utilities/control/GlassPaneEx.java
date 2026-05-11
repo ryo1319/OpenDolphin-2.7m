@@ -6,9 +6,9 @@ package open.dolphin.utilities.control;
 
 import java.awt.Cursor;
 import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.JRootPane;
-import javax.swing.SwingUtilities;
+import jakarta.swing.JComponent;
+import jakarta.swing.JRootPane;
+import jakarta.swing.SwingUtilities;
 
 /**
  * GlassPane拡張クラス

@@ -1,7 +1,7 @@
 package open.dolphin.impl.schema;
 
 import java.awt.*;
-import javax.swing.JComponent;
+import jakarta.swing.JComponent;
 
 /**
  *

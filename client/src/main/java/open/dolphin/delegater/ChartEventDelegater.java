@@ -1,7 +1,7 @@
 package open.dolphin.delegater;
 
 import java.util.concurrent.Future;
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.MediaType;
 import open.dolphin.converter.ChartEventModelConverter;
 import open.dolphin.infomodel.ChartEventModel;
 import org.codehaus.jackson.map.ObjectMapper;

@@ -11,12 +11,12 @@ import java.util.Arrays;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.BoxLayout;
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.SpringLayout;
-import javax.swing.SwingConstants;
+import jakarta.swing.BoxLayout;
+import jakarta.swing.JCheckBox;
+import jakarta.swing.JLabel;
+import jakarta.swing.JPanel;
+import jakarta.swing.SpringLayout;
+import jakarta.swing.SwingConstants;
 import open.dolphin.client.ClientContext;
 
 /**

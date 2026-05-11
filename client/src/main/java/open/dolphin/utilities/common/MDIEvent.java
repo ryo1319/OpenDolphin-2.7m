@@ -4,11 +4,11 @@
  */
 package open.dolphin.utilities.common;
 
-import javax.swing.DefaultDesktopManager;
-import javax.swing.JComponent;
-import javax.swing.JInternalFrame;
-import javax.swing.event.InternalFrameEvent;
-import javax.swing.event.InternalFrameListener;
+import jakarta.swing.DefaultDesktopManager;
+import jakarta.swing.JComponent;
+import jakarta.swing.JInternalFrame;
+import jakarta.swing.event.InternalFrameEvent;
+import jakarta.swing.event.InternalFrameListener;
 
 /**
  *

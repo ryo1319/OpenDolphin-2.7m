@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.text.*;
+import jakarta.swing.text.*;
 import open.dolphin.infomodel.ModuleModel;
 import open.dolphin.project.Project;
 

@@ -3,11 +3,11 @@ package open.dolphin.impl.img;
 import java.awt.Component;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.SwingConstants;
-import javax.swing.table.DefaultTableCellRenderer;
+import jakarta.swing.ImageIcon;
+import jakarta.swing.JLabel;
+import jakarta.swing.JTable;
+import jakarta.swing.SwingConstants;
+import jakarta.swing.table.DefaultTableCellRenderer;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.ImageEntry;
 

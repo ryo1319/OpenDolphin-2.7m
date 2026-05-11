@@ -1,6 +1,6 @@
 package open.dolphin.client;
 
-import javax.swing.JScrollPane;
+import jakarta.swing.JScrollPane;
 import open.dolphin.infomodel.DocInfoModel;
 
 /**

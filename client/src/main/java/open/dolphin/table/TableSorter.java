@@ -8,13 +8,13 @@ import java.awt.event.MouseListener;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.*;
+import jakarta.swing.Icon;
+import jakarta.swing.ImageIcon;
+import jakarta.swing.JLabel;
+import jakarta.swing.JTable;
+import jakarta.swing.event.TableModelEvent;
+import jakarta.swing.event.TableModelListener;
+import jakarta.swing.table.*;
 
 /**
  * TableSorter is a decorator for TableModels; adding sorting functionality to a

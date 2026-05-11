@@ -9,7 +9,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.concurrent.ExecutionException;
-import javax.swing.*;
+import jakarta.swing.*;
 import open.dolphin.client.ClientContext;
 
 /**

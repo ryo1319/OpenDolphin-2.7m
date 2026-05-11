@@ -14,9 +14,9 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
-import javax.swing.*;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableColumn;
+import jakarta.swing.*;
+import jakarta.swing.table.DefaultTableCellRenderer;
+import jakarta.swing.table.TableColumn;
 import open.dolphin.infomodel.SimpleDate;
 
 /**

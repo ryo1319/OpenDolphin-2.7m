@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.StringReader;
 import java.util.List;
 import java.util.ResourceBundle;
-import javax.swing.DropMode;
+import jakarta.swing.DropMode;
 import open.dolphin.client.ClientContext;
 import open.dolphin.infomodel.IInfoModel;
 

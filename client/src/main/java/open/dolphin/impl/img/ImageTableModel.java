@@ -2,7 +2,7 @@ package open.dolphin.impl.img;
 
 
 import java.util.List;
-import javax.swing.table.AbstractTableModel;
+import jakarta.swing.table.AbstractTableModel;
 import open.dolphin.client.ImageEntry;
 
 

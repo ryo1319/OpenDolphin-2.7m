@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.beans.PropertyChangeListener;
-import javax.swing.JProgressBar;
+import jakarta.swing.JProgressBar;
 
 /**
  *

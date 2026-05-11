@@ -6,17 +6,17 @@
 
 package open.dolphin.client;
 
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.BoxView;
-import javax.swing.text.ComponentView;
-import javax.swing.text.Element;
-import javax.swing.text.IconView;
-import javax.swing.text.LabelView;
-import javax.swing.text.ParagraphView;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledEditorKit;
-import javax.swing.text.View;
-import javax.swing.text.ViewFactory;
+import jakarta.swing.text.AbstractDocument;
+import jakarta.swing.text.BoxView;
+import jakarta.swing.text.ComponentView;
+import jakarta.swing.text.Element;
+import jakarta.swing.text.IconView;
+import jakarta.swing.text.LabelView;
+import jakarta.swing.text.ParagraphView;
+import jakarta.swing.text.StyleConstants;
+import jakarta.swing.text.StyledEditorKit;
+import jakarta.swing.text.View;
+import jakarta.swing.text.ViewFactory;
 
 /**
  *

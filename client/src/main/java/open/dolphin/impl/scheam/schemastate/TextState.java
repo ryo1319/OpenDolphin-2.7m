@@ -7,7 +7,7 @@ import java.awt.Shape;
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.geom.AffineTransform;
-import javax.swing.JOptionPane;
+import jakarta.swing.JOptionPane;
 import open.dolphin.client.ClientContext;
 import open.dolphin.impl.scheam.SchemaCanvasDialog2;
 import open.dolphin.impl.scheam.SchemaEditorImpl;

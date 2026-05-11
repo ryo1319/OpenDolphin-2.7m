@@ -1,7 +1,7 @@
 package open.dolphin.impl.psearch;
 
 import java.awt.event.MouseEvent;
-import javax.swing.JTable;
+import jakarta.swing.JTable;
 import open.dolphin.infomodel.PatientModel;
 import open.dolphin.infomodel.PatientVisitModel;
 import open.dolphin.table.ListTableSorter;

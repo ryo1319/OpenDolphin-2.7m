@@ -6,7 +6,7 @@ import java.awt.Graphics2D;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
-import javax.swing.ImageIcon;
+import jakarta.swing.ImageIcon;
 
 /**
  * @author Minagawa,Kazushi

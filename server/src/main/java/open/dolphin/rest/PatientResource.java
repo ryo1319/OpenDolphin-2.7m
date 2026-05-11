@@ -2,11 +2,11 @@ package open.dolphin.rest;
 
 import java.io.IOException;
 import java.util.List;
-import javax.inject.Inject;
-import javax.servlet.http.HttpServletRequest;
-import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.MediaType;
+import jakarta.inject.Inject;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.Context;
+import jakarta.ws.rs.core.MediaType;
 import open.dolphin.converter.PatientListConverter;
 import open.dolphin.converter.PatientModelConverter;
 import open.dolphin.infomodel.PatientList;

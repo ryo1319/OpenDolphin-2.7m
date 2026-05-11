@@ -1,10 +1,10 @@
 package open.dolphin.client;
 
 import java.awt.Dimension;
-import javax.swing.BorderFactory;
-import javax.swing.BoxLayout;
-import javax.swing.JPanel;
-import javax.swing.JTabbedPane;
+import jakarta.swing.BorderFactory;
+import jakarta.swing.BoxLayout;
+import jakarta.swing.JPanel;
+import jakarta.swing.JTabbedPane;
 import open.dolphin.infomodel.KarteBean;
 import open.dolphin.infomodel.PatientModel;
 import open.dolphin.project.Project;

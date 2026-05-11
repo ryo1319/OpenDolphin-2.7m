@@ -2,7 +2,7 @@ package open.dolphin.impl.lbtest;
 
 import java.awt.Color;
 import java.awt.Component;
-import javax.swing.JTable;
+import jakarta.swing.JTable;
 import open.dolphin.infomodel.LabTestRowObject;
 import open.dolphin.infomodel.LabTestValueObject;
 import open.dolphin.table.StripeTableCellRenderer;

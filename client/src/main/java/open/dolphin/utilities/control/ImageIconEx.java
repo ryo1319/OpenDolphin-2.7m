@@ -5,7 +5,7 @@
 package open.dolphin.utilities.control;
 
 import java.awt.Image;
-import javax.swing.ImageIcon;
+import jakarta.swing.ImageIcon;
 
 /**
  * テーブルに表示するImageIconクラス

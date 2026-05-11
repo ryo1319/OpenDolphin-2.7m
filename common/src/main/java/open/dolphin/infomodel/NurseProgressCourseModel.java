@@ -1,9 +1,8 @@
 package open.dolphin.infomodel;
 
-import javax.persistence.Entity;
-import javax.persistence.Lob;
-import javax.persistence.Table;
-import org.hibernate.annotations.Type;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Lob;
+import jakarta.persistence.Table;
 
 /**
  * 看護記録モデル
@@ -15,7 +14,6 @@ import org.hibernate.annotations.Type;
 public class NurseProgressCourseModel extends KarteEntryBean implements java.io.Serializable {
     
     @Lob
-    @Type(type="org.hibernate.type.StringType")
     private String progressText;
     
     // 看護記録の文字数

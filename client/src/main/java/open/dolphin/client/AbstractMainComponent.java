@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.util.concurrent.Callable;
-import javax.swing.JPanel;
+import jakarta.swing.JPanel;
 
 /**
  * Main Window プラグインの抽象クラス。

@@ -1,9 +1,9 @@
 package open.dolphin.client;
 
-import javax.swing.ActionMap;
-import javax.swing.JMenuBar;
-import javax.swing.JPanel;
-import javax.swing.JToolBar;
+import jakarta.swing.ActionMap;
+import jakarta.swing.JMenuBar;
+import jakarta.swing.JPanel;
+import jakarta.swing.JToolBar;
 import open.dolphin.helper.MenuSupport;
 
 /**

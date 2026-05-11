@@ -1,7 +1,7 @@
 package open.dolphin.system;
 
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.client.Entity;
+import jakarta.ws.rs.core.MediaType;
 import open.dolphin.converter.UserModelConverter;
 import open.dolphin.delegater.BusinessDelegater;
 import open.dolphin.infomodel.UserModel;

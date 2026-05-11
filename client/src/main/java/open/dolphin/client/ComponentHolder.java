@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import javax.swing.text.Position;
+import jakarta.swing.text.Position;
 
 /**
  * IComponentHolder

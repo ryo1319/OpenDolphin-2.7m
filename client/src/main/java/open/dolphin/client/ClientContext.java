@@ -7,7 +7,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.ResourceBundle;
-import javax.swing.ImageIcon;
+import jakarta.swing.ImageIcon;
 import open.dolphin.infomodel.DepartmentModel;
 import open.dolphin.infomodel.LicenseModel;
 import org.apache.velocity.VelocityContext;

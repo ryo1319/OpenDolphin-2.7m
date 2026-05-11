@@ -3,10 +3,10 @@ package open.dolphin.client;
 import java.awt.Window;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
+import jakarta.swing.ImageIcon;
+import jakarta.swing.JOptionPane;
+import jakarta.swing.JPanel;
+import jakarta.swing.SwingUtilities;
 
 /**
  * チャートドキュメントのルートクラス。

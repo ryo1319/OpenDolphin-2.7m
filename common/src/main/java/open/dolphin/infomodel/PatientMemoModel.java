@@ -1,9 +1,8 @@
 package open.dolphin.infomodel;
 
-import javax.persistence.Entity;
-import javax.persistence.Lob;
-import javax.persistence.Table;
-import org.hibernate.annotations.Type;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Lob;
+import jakarta.persistence.Table;
 
 /**
  * MemoModel
@@ -20,7 +19,6 @@ public class PatientMemoModel extends KarteEntryBean implements java.io.Serializ
     private String memo;
 //masuda^    
     @Lob
-    @Type(type="org.hibernate.type.StringType")
     private String memo2;
     
     public String getMemo() {

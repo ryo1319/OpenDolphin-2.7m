@@ -2,7 +2,7 @@ package open.dolphin.impl.scheam.schemahelper;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import javax.swing.ImageIcon;
+import jakarta.swing.ImageIcon;
 
 /**
  *

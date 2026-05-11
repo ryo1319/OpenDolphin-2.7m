@@ -3,8 +3,8 @@ package open.dolphin.impl.care;
 import java.awt.Cursor;
 import java.awt.datatransfer.Transferable;
 import java.awt.dnd.*;
-import javax.swing.Icon;
-import javax.swing.JLabel;
+import jakarta.swing.Icon;
+import jakarta.swing.JLabel;
 import open.dolphin.infomodel.AppointmentModel;
 
 /**

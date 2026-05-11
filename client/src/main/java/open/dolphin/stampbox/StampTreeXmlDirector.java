@@ -3,7 +3,7 @@ package open.dolphin.stampbox;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Enumeration;
-import javax.swing.tree.DefaultMutableTreeNode;
+import jakarta.swing.tree.DefaultMutableTreeNode;
 
 
 /**
