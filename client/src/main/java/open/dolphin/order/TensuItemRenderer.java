@@ -3,9 +3,9 @@ package open.dolphin.order;
 import java.awt.Color;
 import java.awt.Component;
 import java.util.regex.Pattern;
-import jakarta.swing.JLabel;
-import jakarta.swing.JTable;
-import jakarta.swing.table.TableCellRenderer;
+import javax.swing.JLabel;
+import javax.swing.JTable;
+import javax.swing.table.TableCellRenderer;
 import open.dolphin.infomodel.ClaimConst;
 import open.dolphin.infomodel.TensuMaster;
 import open.dolphin.table.ListTableModel;
@@ -116,3 +116,4 @@ public final class TensuItemRenderer extends JLabel implements TableCellRenderer
         return this;
     }
 }
+

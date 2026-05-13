@@ -1,7 +1,7 @@
 package open.dolphin.helper;
 
 import java.awt.*;
-import jakarta.swing.*;
+import javax.swing.*;
 
 /**
  * @author Kazushi Minagawa Digital Globe, Inc.
@@ -207,6 +207,7 @@ public final class GridBagBuilder {
         return titleSpaceRight;
     }
 }
+
 
 
 

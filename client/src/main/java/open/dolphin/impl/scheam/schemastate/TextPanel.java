@@ -95,3 +95,4 @@ public class TextPanel extends javax.swing.JPanel {
         return (Integer)sizeCb.getSelectedItem();
     }
 }
+

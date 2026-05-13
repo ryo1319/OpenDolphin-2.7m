@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.awt.Window;
-import jakarta.swing.*;
+import javax.swing.*;
 
 /**
  * SaveDialog
@@ -76,3 +76,4 @@ public abstract class AbstractSaveDialog {
     
     public abstract void setValue(SaveParamsM params);
 }
+

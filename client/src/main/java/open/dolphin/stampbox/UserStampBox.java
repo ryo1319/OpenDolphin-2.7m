@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.StringReader;
 import java.util.List;
 import java.util.ResourceBundle;
-import jakarta.swing.DropMode;
+import javax.swing.DropMode;
 import open.dolphin.client.ClientContext;
 import open.dolphin.infomodel.IInfoModel;
 
@@ -104,3 +104,4 @@ public class UserStampBox extends AbstractStampBox {
         return ClientContext.getMyBundle(UserStampBox.class).getString("text.info");
     }
 }
+

@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
-import jakarta.swing.ActionMap;
-import jakarta.swing.JComponent;
+import javax.swing.ActionMap;
+import javax.swing.JComponent;
 
 /**
  *
@@ -15,3 +15,4 @@ public interface IKarteTransferHandler {
 
     public void exit(ActionMap map);
 }
+

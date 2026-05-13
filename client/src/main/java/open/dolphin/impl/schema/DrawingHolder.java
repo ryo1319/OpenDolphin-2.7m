@@ -16,3 +16,4 @@ public interface DrawingHolder {
     public void translate(double x, double y);
 
 }
+

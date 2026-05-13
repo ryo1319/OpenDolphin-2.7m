@@ -246,3 +246,4 @@ public class FacilityEditorView extends javax.swing.JPanel {
         return zipField2;
     }
 }
+

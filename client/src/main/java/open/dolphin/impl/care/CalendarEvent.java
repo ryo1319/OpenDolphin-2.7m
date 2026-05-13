@@ -42,3 +42,4 @@ public class CalendarEvent extends java.util.EventObject {
         c2 = val;
     }    
 }
+

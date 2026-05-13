@@ -5,14 +5,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.logging.Level;
-import jakarta.ws.rs.client.ClientRequestContext;
-import jakarta.ws.rs.client.ClientRequestFilter;
-import jakarta.ws.rs.client.ClientResponseContext;
-import jakarta.ws.rs.client.ClientResponseFilter;
-import jakarta.ws.rs.client.Entity;
-import jakarta.ws.rs.core.Cookie;
-import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.core.Response;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.ClientRequestContext;
+import javax.ws.rs.client.ClientRequestFilter;
+import javax.ws.rs.client.ClientResponseContext;
+import javax.ws.rs.client.ClientResponseFilter;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.Cookie;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 import open.dolphin.client.Dolphin;
 import open.dolphin.exception.FirstCommitWinException;
 import open.dolphin.project.Project;
@@ -21,9 +24,6 @@ import org.apache.commons.io.IOUtils;
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.SerializationConfig;
-import org.jboss.resteasy.client.jaxrs.ResteasyClient;
-import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
-import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 
 /**
  * Bsiness Delegater のルートクラス。
@@ -39,72 +39,72 @@ public class BusinessDelegater {
     protected static final String PASSWORD = "password";
     private static final String CLINET_UUID = "clientUUID";
     
-    protected ResteasyWebTarget getWebTarget(String path, String userName, String password) {
+    protected WebTarget getWebTarget(String path, String userName, String password) {
         
         StringBuilder sb = new StringBuilder();
         sb.append(Project.getBaseURI()).append(path);
         String uri = sb.toString();
         
-        ResteasyClient client = new ResteasyClientBuilder().build();
+        Client client = ClientBuilder.newClient();
         client.register(new AuthHeadersRequestFilter(userName, HashUtil.MD5(password)));
         client.register(new StatusChecker());
-        ResteasyWebTarget target = client.target(uri);
+        WebTarget target = client.target(uri);
         return target;
     }
     
-    protected ResteasyWebTarget getWebTarget(String baseURI, String path, String userId, String password) {
+    protected WebTarget getWebTarget(String baseURI, String path, String userId, String password) {
         StringBuilder sb = new StringBuilder();
         sb.append(baseURI).append(path);
         String uri = sb.toString();
-        ResteasyClient client = new ResteasyClientBuilder().build();
+        Client client = ClientBuilder.newClient();
         client.register(new AuthHeadersRequestFilter(userId, HashUtil.MD5(password)));
         client.register(new StatusChecker());
-        ResteasyWebTarget target = client.target(uri);
+        WebTarget target = client.target(uri);
         return target;
     }
     
-    protected ResteasyWebTarget getWebTarget(String path) {
+    protected WebTarget getWebTarget(String path) {
         StringBuilder sb = new StringBuilder();
         sb.append(Project.getBaseURI()).append(path);
         String uri = sb.toString();
-        ResteasyClient client = new ResteasyClientBuilder().build();
+        Client client = ClientBuilder.newClient();
         client.register(new AuthHeadersRequestFilter(Project.getUserModel().getUserId(), Project.getUserModel().getPassword()));
         client.register(new StatusChecker());
-        ResteasyWebTarget target = client.target(uri);
+        WebTarget target = client.target(uri);
         return target;
     }
     
-    protected ResteasyWebTarget getStamptreeWebTarget(String path) {
+    protected WebTarget getStamptreeWebTarget(String path) {
         StringBuilder sb = new StringBuilder();
         sb.append(Project.getBaseURI()).append(path);
         String uri = sb.toString();
-        ResteasyClient client = new ResteasyClientBuilder().build();
+        Client client = ClientBuilder.newClient();
         client.register(new AuthHeadersRequestFilter(Project.getUserModel().getUserId(), Project.getUserModel().getPassword()));
         // 先勝ち制御Filter
         client.register(new FirstCommitWinChecker());
-        ResteasyWebTarget target = client.target(uri);
+        WebTarget target = client.target(uri);
         return target;
     }
     
-    protected ResteasyWebTarget getWebTargetSubscribe(String path) {
+    protected WebTarget getWebTargetSubscribe(String path) {
         StringBuilder sb = new StringBuilder();
         sb.append(Project.getBaseURI()).append(path);
         String uri = sb.toString();
-        ResteasyClient client = new ResteasyClientBuilder().build();
+        Client client = ClientBuilder.newClient();
         client.register(new AuthHeadersRequestFilterLong(Project.getUserModel().getUserId(), Project.getUserModel().getPassword()));
-        ResteasyWebTarget target = client.target(uri);
+        WebTarget target = client.target(uri);
         return target;
     }
     
     protected <T> T getEasy(String path, String userName, String password, String mediaType, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path, userName, password);
+        WebTarget target = getWebTarget(path, userName, password);
         Cookie cookie = getProjectCookie(userName);
         T t = cookie!=null ? target.request(mediaType).cookie(cookie).get(cls) : target.request(mediaType).get(cls);
         return t;
     }
     
     private <T> T getEasy(String path, String mediaType, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request(mediaType).cookie(cookie).get(cls) : target.request(mediaType).get(cls);
         return t;
@@ -119,56 +119,56 @@ public class BusinessDelegater {
     }
     
     protected <T> T postEasyJson(String path, byte[] data, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request().cookie(cookie).post(Entity.json(data), cls) : target.request().post(Entity.json(data), cls);
         return t;
     }
     
     protected <T> T postEasyText(String path, byte[] data, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request().cookie(cookie).post(Entity.text(data), cls) : target.request().post(Entity.text(data), cls);
         return t;
     }
     
     protected <T> T putEasyStampTree(String path, byte[] data, Class<T> cls) {
-        ResteasyWebTarget target = getStamptreeWebTarget(path);
+        WebTarget target = getStamptreeWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request().cookie(cookie).put(Entity.json(data), cls) : target.request().put(Entity.json(data), cls);
         return t;
     }
     
     protected <T> T putEasyJson(String path, byte[] data, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request().cookie(cookie).put(Entity.json(data), cls) : target.request().put(Entity.json(data), cls);
         return t;
     }
     
     protected <T> T putEasyJson(String path, String mediaType, byte[] data, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request(mediaType).cookie(cookie).put(Entity.json(data), cls) : target.request(mediaType).put(Entity.json(data), cls);
         return t;
     }
     
     protected <T> T putEasyText(String path, byte[] data, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request().cookie(cookie).put(Entity.text(data), cls) : target.request().put(Entity.text(data), cls);
         return t;
     }
     
     protected void deleteEasy(String path) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         Response res = cookie!=null ? target.request().cookie(cookie).delete() : target.request().delete();
         res.close();
     }
     
     protected <T> T deleteEasy(String path, Class<T> cls) {
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         Cookie cookie = getProjectCookie(Project.getUserModel().getUserId());
         T t = cookie!=null ? target.request().cookie(cookie).delete(cls) : target.request().delete(cls);
         return t;
@@ -295,3 +295,4 @@ public class BusinessDelegater {
         java.util.logging.Logger.getLogger(this.getClass().getName()).log(Level.FINE, "HTTP status = {0}", status);
     }
 }
+

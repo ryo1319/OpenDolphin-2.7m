@@ -9,9 +9,9 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.event.ChangeEvent;
-import jakarta.swing.event.ChangeListener;
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import open.dolphin.client.*;
 import open.dolphin.helper.ComponentMemory;
 import open.dolphin.helper.WindowSupport;
@@ -837,3 +837,4 @@ public class StampBoxPlugin extends AbstractMainTool {
         return getCurrentBox().getAllStamps(entity);
     }
 }
+

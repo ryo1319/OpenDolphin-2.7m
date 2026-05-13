@@ -16,6 +16,11 @@
     
     <repositories>
         <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
             <id>jboss</id>
             <name>JBoss Repository</name>
             <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
@@ -80,6 +85,24 @@
             <groupId>jakarta.security.enterprise</groupId>
             <artifactId>jakarta.security.enterprise-api</artifactId>
             <version>3.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>jakarta.el</artifactId>
+            <version>4.0.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.spec.javax.sql</groupId>
+            <artifactId>jboss-javax-sql-api_7.0_spec</artifactId>
+            <version>1.0.0.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

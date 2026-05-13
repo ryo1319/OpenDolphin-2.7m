@@ -35,3 +35,4 @@ public final class CheckBoxEditorSupport extends PropertyEditorSupport {
         on = Boolean.parseBoolean(text);
     }
 }
+

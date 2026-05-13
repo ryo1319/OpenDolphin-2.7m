@@ -1,6 +1,6 @@
 package open.dolphin.client;
 
-import jakarta.swing.JPanel;
+import javax.swing.JPanel;
 
 /**
  *
@@ -17,3 +17,4 @@ public interface MainComponent extends MainTool {
     public void setUI(JPanel panel);
     
 }
+

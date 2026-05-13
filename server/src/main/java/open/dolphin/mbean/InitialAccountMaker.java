@@ -14,7 +14,7 @@ import jakarta.ejb.Singleton;
 import jakarta.ejb.Startup;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import jakarta.sql.DataSource;
+import javax.sql.DataSource;
 import open.dolphin.infomodel.AddressModel;
 import open.dolphin.infomodel.DepartmentModel;
 import open.dolphin.infomodel.FacilityModel;

@@ -22,3 +22,4 @@ public interface Letter extends NChartDocument {
     public void makePDF();
     
 }
+

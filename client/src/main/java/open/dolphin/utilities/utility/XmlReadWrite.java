@@ -5,9 +5,9 @@
 package open.dolphin.utilities.utility;
 
 import java.io.IOException;
-import jakarta.xml.parsers.ParserConfigurationException;
-import jakarta.xml.transform.TransformerConfigurationException;
-import jakarta.xml.transform.TransformerException;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
 import open.dolphin.utilities.common.XML;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
@@ -140,3 +140,4 @@ public class XmlReadWrite extends XML {
     public static void main(String[] args) {
     }
 }
+

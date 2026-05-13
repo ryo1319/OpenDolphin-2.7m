@@ -9,8 +9,8 @@ import java.awt.event.ActionEvent;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import jakarta.swing.*;
-import jakarta.swing.table.AbstractTableModel;
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
 import open.dolphin.infomodel.ActivityModel;
 import open.dolphin.table.StripeTableCellRenderer;
 
@@ -210,3 +210,4 @@ public final class AboutActivities  {
         return NumberFormat.getNumberInstance().format(l);
     }
 }
+

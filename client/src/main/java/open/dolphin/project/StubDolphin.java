@@ -130,3 +130,4 @@ public class StubDolphin extends ProjectStub {
         return false;
     }
 }
+

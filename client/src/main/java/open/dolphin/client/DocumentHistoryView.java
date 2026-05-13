@@ -108,3 +108,4 @@ public class DocumentHistoryView extends javax.swing.JPanel {
         return table;
     }
 }
+

@@ -1,9 +1,9 @@
 package open.dolphin.impl.psearch;
 
 import java.awt.datatransfer.Transferable;
-import jakarta.swing.JComponent;
-import jakarta.swing.JTable;
-import jakarta.swing.TransferHandler;
+import javax.swing.JComponent;
+import javax.swing.JTable;
+import javax.swing.TransferHandler;
 import open.dolphin.infomodel.PatientModel;
 import open.dolphin.table.ListTableModel;
 
@@ -30,3 +30,4 @@ public final class PatientSearchTransferHandler extends TransferHandler {
         return COPY;
     }
 }
+

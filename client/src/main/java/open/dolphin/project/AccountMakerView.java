@@ -58,3 +58,4 @@ public class AccountMakerView extends javax.swing.JPanel {
         return accountMakeBtn;
     }
 }
+

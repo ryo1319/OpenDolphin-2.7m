@@ -208,3 +208,4 @@ public class MedicalCertificatePDFMaker extends AbstractLetterPDFMaker {
         }
     }
 }
+

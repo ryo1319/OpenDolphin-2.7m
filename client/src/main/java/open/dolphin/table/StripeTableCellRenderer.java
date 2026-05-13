@@ -6,12 +6,12 @@ import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Rectangle;
-import jakarta.swing.BorderFactory;
-import jakarta.swing.JComponent;
-import jakarta.swing.JTable;
-import jakarta.swing.border.Border;
-import jakarta.swing.plaf.basic.BasicTableUI;
-import jakarta.swing.table.DefaultTableCellRenderer;
+import javax.swing.BorderFactory;
+import javax.swing.JComponent;
+import javax.swing.JTable;
+import javax.swing.border.Border;
+import javax.swing.plaf.basic.BasicTableUI;
+import javax.swing.table.DefaultTableCellRenderer;
 import open.dolphin.client.GUIConst;
 
 /**
@@ -124,3 +124,4 @@ public class StripeTableCellRenderer extends DefaultTableCellRenderer {
         }
     }
 }
+

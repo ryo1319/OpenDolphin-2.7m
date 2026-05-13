@@ -97,3 +97,4 @@ public class ClippingState extends AbstractState {
     }
 
 }
+

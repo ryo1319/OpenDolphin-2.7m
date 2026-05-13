@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import jakarta.swing.text.Position;
+import javax.swing.text.Position;
 
 /**
  * IComponentHolder
@@ -40,3 +40,4 @@ public interface ComponentHolder extends PropertyChangeListener {
     public int getEndPos();
 
 }
+

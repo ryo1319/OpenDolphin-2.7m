@@ -11,8 +11,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.*;
-import jakarta.swing.event.ChangeEvent;
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
 import open.dolphin.helper.ComponentMemory;
 
 /**
@@ -286,3 +286,4 @@ public class ImageBox extends AbstractMainTool {
         return suffix;
     }
 }
+

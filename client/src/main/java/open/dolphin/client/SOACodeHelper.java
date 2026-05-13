@@ -7,10 +7,10 @@ import java.util.Enumeration;
 import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import jakarta.swing.JMenu;
-import jakarta.swing.JMenuItem;
-import jakarta.swing.JPopupMenu;
-import jakarta.swing.tree.DefaultMutableTreeNode;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+import javax.swing.JPopupMenu;
+import javax.swing.tree.DefaultMutableTreeNode;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.ModuleInfoBean;
 import open.dolphin.project.Project;
@@ -191,3 +191,4 @@ public class SOACodeHelper extends AbstractCodeHelper {
         }
     }
 }
+

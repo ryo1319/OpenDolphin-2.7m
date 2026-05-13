@@ -5,8 +5,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import jakarta.swing.Action;
-import jakarta.swing.JComponent;
+import javax.swing.Action;
+import javax.swing.JComponent;
 
 /**
  *
@@ -46,3 +46,4 @@ public class TransferActionListener implements ActionListener,
         }
     }
 }
+

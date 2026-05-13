@@ -62,3 +62,4 @@ public class AtokAvoidableMouseListener implements MouseListener, MouseMotionLis
     @Override
     public void mouseMoved(MouseEvent e) {}
 }
+

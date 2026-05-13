@@ -3,7 +3,7 @@ package open.dolphin.client;
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.text.MessageFormat;
-import jakarta.swing.*;
+import javax.swing.*;
 
 /**
  * Chart plugin で共通に利用するステータスパネル。
@@ -145,4 +145,5 @@ public class StatusPanel extends JPanel implements IStatusPanel {
         }
     }
 }
+
 

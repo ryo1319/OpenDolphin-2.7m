@@ -6,9 +6,9 @@ import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Enumeration;
-import jakarta.swing.JComponent;
-import jakarta.swing.JTable;
-import jakarta.swing.TransferHandler;
+import javax.swing.JComponent;
+import javax.swing.JTable;
+import javax.swing.TransferHandler;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.InfoModelTransferable;
 import open.dolphin.infomodel.ModuleInfoBean;
@@ -165,3 +165,4 @@ public class DiagnosisTransferHandler extends TransferHandler {
         return importData(support);
     }
 }
+

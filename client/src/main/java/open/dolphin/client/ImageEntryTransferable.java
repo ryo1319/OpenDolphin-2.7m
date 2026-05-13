@@ -53,3 +53,4 @@ public final class ImageEntryTransferable implements Transferable, ClipboardOwne
     public void lostOwnership(Clipboard clipboard, Transferable contents) {
     }
 }
+

@@ -10,7 +10,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
 import open.dolphin.client.ServerInfo;
@@ -437,3 +437,4 @@ public class AddFacilityDialog extends JDialog implements ComponentListener, Run
     public void componentHidden(java.awt.event.ComponentEvent componentEvent) {
     }
 }
+

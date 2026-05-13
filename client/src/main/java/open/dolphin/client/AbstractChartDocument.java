@@ -3,10 +3,10 @@ package open.dolphin.client;
 import java.awt.Window;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.JOptionPane;
-import jakarta.swing.JPanel;
-import jakarta.swing.SwingUtilities;
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
 /**
  * チャートドキュメントのルートクラス。
@@ -175,3 +175,4 @@ public abstract class AbstractChartDocument implements ChartDocument {
         JOptionPane.showMessageDialog(parent, message, ClientContext.getFrameTitle(title), JOptionPane.WARNING_MESSAGE);
     }
 }
+

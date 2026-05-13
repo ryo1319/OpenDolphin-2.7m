@@ -30,9 +30,9 @@ import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.table.TableCellRenderer;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableColumn;
 import open.dolphin.client.AutoKanjiListener;
 import open.dolphin.client.ClientContext;
 import open.dolphin.infomodel.AppointmentModel;
@@ -387,3 +387,4 @@ public class AppointTablePanel extends JPanel implements PropertyChangeListener 
         }
     }
 }
+

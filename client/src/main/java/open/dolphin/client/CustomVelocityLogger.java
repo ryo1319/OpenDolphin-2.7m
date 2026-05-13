@@ -26,3 +26,4 @@ public class CustomVelocityLogger implements LogChute {
         return false;
     }
 }
+

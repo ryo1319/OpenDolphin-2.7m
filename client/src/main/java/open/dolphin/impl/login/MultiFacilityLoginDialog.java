@@ -5,9 +5,9 @@ import java.awt.event.ItemEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.Date;
-import jakarta.swing.*;
-import jakarta.swing.event.DocumentEvent;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import open.dolphin.client.AutoRomanListener;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
@@ -363,3 +363,4 @@ public class MultiFacilityLoginDialog extends AbstractLoginDialog {
         }
     }
 }
+

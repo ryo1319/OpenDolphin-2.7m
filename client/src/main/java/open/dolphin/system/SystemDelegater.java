@@ -1,12 +1,12 @@
 package open.dolphin.system;
 
-import jakarta.ws.rs.client.Entity;
-import jakarta.ws.rs.core.MediaType;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
 import open.dolphin.converter.UserModelConverter;
 import open.dolphin.delegater.BusinessDelegater;
 import open.dolphin.infomodel.UserModel;
 import org.codehaus.jackson.map.ObjectMapper;
-import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 
 /**
  *
@@ -34,7 +34,7 @@ public final class SystemDelegater extends BusinessDelegater {
      * @throws Exception
      */
     public String hellow() throws Exception {
-        ResteasyWebTarget target = getWebTarget(BASE_URI, PATH, USER_ID, USER_PASSWORD);
+        WebTarget target = getWebTarget(BASE_URI, PATH, USER_ID, USER_PASSWORD);
         String entityStr = target.request(MediaType.TEXT_PLAIN).get(String.class);   
         return entityStr;
     }
@@ -51,7 +51,7 @@ public final class SystemDelegater extends BusinessDelegater {
         conv.setModel(user);
         ObjectMapper mapper = this.getSerializeMapper();
         byte[] data = mapper.writeValueAsBytes(conv);
-        ResteasyWebTarget target = getWebTarget(BASE_URI, PATH, USER_ID, USER_PASSWORD);
+        WebTarget target = getWebTarget(BASE_URI, PATH, USER_ID, USER_PASSWORD);
         String res = target.request().post(Entity.json(data), String.class);
         
         return res;
@@ -60,8 +60,9 @@ public final class SystemDelegater extends BusinessDelegater {
 //s.oh^ 2014/07/08 クラウド0対応
     public void sendCloudZeroMail() throws Exception {
         String path = PATH + "/cloudzero/sendmail";
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         String entityStr = target.request(MediaType.APPLICATION_JSON).get(String.class);        
     }
 //s.oh$
 }
+

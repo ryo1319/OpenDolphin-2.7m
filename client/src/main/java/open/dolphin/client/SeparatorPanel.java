@@ -3,7 +3,7 @@ package open.dolphin.client;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
-import jakarta.swing.JPanel;
+import javax.swing.JPanel;
 
 /**
  * SeparatorPanel
@@ -37,3 +37,4 @@ public class SeparatorPanel extends JPanel {
         g.drawLine(1, 0, 1, getHeight());
     }
 }
+

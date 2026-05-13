@@ -1,11 +1,11 @@
 package open.dolphin.delegater;
 
 import java.util.concurrent.Future;
-import jakarta.ws.rs.core.MediaType;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
 import open.dolphin.converter.ChartEventModelConverter;
 import open.dolphin.infomodel.ChartEventModel;
 import org.codehaus.jackson.map.ObjectMapper;
-import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 
 /**
  * State変化関連のデレゲータ
@@ -49,7 +49,8 @@ public class ChartEventDelegater extends BusinessDelegater {
     }
     
     public Future<ChartEventModel> subscribe() throws Exception {
-        ResteasyWebTarget target = getWebTargetSubscribe(SUBSCRIBE_PATH);
+        WebTarget target = getWebTargetSubscribe(SUBSCRIBE_PATH);
         return target.request(MediaType.APPLICATION_JSON).async().get(ChartEventModel.class);
     }
 }
+

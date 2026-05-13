@@ -3,14 +3,14 @@ package open.dolphin.table;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.List;
-import jakarta.swing.JCheckBoxMenuItem;
-import jakarta.swing.JMenu;
-import jakarta.swing.JTable;
-import jakarta.swing.event.ChangeEvent;
-import jakarta.swing.event.ListSelectionEvent;
-import jakarta.swing.event.TableColumnModelEvent;
-import jakarta.swing.event.TableColumnModelListener;
-import jakarta.swing.table.TableColumn;
+import javax.swing.JCheckBoxMenuItem;
+import javax.swing.JMenu;
+import javax.swing.JTable;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.TableColumnModelEvent;
+import javax.swing.event.TableColumnModelListener;
+import javax.swing.table.TableColumn;
 import open.dolphin.project.Project;
 
 /**
@@ -312,3 +312,4 @@ public class ColumnSpecHelper {
         }
     }
 }
+

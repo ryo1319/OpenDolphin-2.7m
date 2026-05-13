@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.util.List;
-import jakarta.swing.JFrame;
+import javax.swing.JFrame;
 import open.dolphin.infomodel.*;
 
 /**
@@ -78,3 +78,4 @@ public interface Chart extends MainTool {
     public List<ModuleInfoBean> getDroppedDiagnosisList();
     
 }
+

@@ -256,3 +256,4 @@ public final class ClaimHelper {
         this.selectedInsurance = selectedInsurance;
     }
 }
+

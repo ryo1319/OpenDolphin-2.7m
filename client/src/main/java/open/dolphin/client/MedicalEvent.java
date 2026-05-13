@@ -118,3 +118,4 @@ public class MedicalEvent {
         displayDate =  buf.toString();
     }    
 }
+

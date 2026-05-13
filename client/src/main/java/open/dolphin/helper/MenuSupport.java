@@ -2,10 +2,10 @@ package open.dolphin.helper;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import jakarta.swing.Action;
-import jakarta.swing.ActionMap;
-import jakarta.swing.event.MenuEvent;
-import jakarta.swing.event.MenuListener;
+import javax.swing.Action;
+import javax.swing.ActionMap;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
 
 /**
  * MenuSupport
@@ -173,3 +173,4 @@ public class MenuSupport implements MenuListener {
        
     public void paste() {}
 }
+

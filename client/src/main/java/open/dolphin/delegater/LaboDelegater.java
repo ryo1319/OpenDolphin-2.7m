@@ -152,3 +152,4 @@ public final class LaboDelegater extends BusinessDelegater {
         return 1;
     }
 }
+

@@ -11,9 +11,9 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.EventObject;
-import jakarta.swing.*;
-import jakarta.swing.border.Border;
-import jakarta.swing.border.EtchedBorder;
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.EtchedBorder;
 
 /**
  * アコーディオンパネル
@@ -299,3 +299,4 @@ interface AccordionListener{
      */
     public void accordionStateChanged(AccordionEvent e);
 }
+

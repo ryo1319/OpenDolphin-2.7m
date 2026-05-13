@@ -133,3 +133,4 @@ class ImageSelection implements Transferable, ClipboardOwner {
         img = null;
     }
 }
+

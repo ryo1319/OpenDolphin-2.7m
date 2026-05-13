@@ -6,7 +6,7 @@ import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
 import java.text.MessageFormat;
-import jakarta.swing.JTable;
+import javax.swing.JTable;
 
 /**
  * ラボテストの印刷
@@ -132,3 +132,4 @@ public class LaboTestPrint implements Printable {
         return Printable.PAGE_EXISTS;
     }
 }
+

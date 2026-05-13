@@ -5,7 +5,7 @@
 package open.dolphin.utilities.control;
 
 import java.awt.Image;
-import jakarta.swing.ImageIcon;
+import javax.swing.ImageIcon;
 
 /**
  * テーブルに表示するImageIconクラス
@@ -102,3 +102,4 @@ public class ImageIconEx {
         //img.setText(テキスト);
     }
 }
+

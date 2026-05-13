@@ -372,3 +372,4 @@ public class RadView extends javax.swing.JPanel implements IRadView {
     }
 //s.oh$
 }
+

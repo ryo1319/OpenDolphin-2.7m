@@ -23,3 +23,4 @@ public class FirstCommitWinException extends java.lang.RuntimeException {
         super(s, t);
     }     
 }
+

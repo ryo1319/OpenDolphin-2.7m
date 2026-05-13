@@ -216,3 +216,4 @@ public class PatientSearchSpec extends DolphinDTO {
         return digit;
     }
 }
+

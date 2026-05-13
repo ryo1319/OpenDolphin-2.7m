@@ -396,3 +396,4 @@ public class RpViewText extends javax.swing.JPanel implements IRpView {
 //s.oh$
 
 }
+

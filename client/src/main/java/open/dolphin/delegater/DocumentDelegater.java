@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
-import jakarta.swing.ImageIcon;
+import javax.swing.ImageIcon;
 import open.dolphin.client.ClientContext;
 import open.dolphin.converter.*;
 import static open.dolphin.delegater.BusinessDelegater.CAMMA;
@@ -734,3 +734,4 @@ public final class DocumentDelegater extends BusinessDelegater {
     }
 //s.oh$
 }
+

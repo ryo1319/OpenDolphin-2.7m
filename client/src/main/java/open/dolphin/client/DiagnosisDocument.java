@@ -13,12 +13,12 @@ import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionEvent;
-import jakarta.swing.event.PopupMenuEvent;
-import jakarta.swing.event.PopupMenuListener;
-import jakarta.swing.table.JTableHeader;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableColumn;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.delegater.OrcaDelegater;
 import open.dolphin.delegater.OrcaDelegaterFactory;
@@ -2484,3 +2484,4 @@ public final class DiagnosisDocument extends AbstractChartDocument implements Pr
     }
 //s.oh$
 }
+

@@ -1,10 +1,10 @@
 package open.dolphin.client;
 
 import java.awt.Dimension;
-import jakarta.swing.BorderFactory;
-import jakarta.swing.BoxLayout;
-import jakarta.swing.JPanel;
-import jakarta.swing.JTabbedPane;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
 import open.dolphin.infomodel.KarteBean;
 import open.dolphin.infomodel.PatientModel;
 import open.dolphin.project.Project;
@@ -256,3 +256,4 @@ public class PatientInspector {
         }
     }
 }
+

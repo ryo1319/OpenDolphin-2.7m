@@ -18,8 +18,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import jakarta.swing.*;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.table.TableColumn;
 import open.dolphin.client.Chart;
 import open.dolphin.utilities.utility.OtherProcessLink;
 import open.dolphin.client.ClientContext;
@@ -1538,3 +1538,4 @@ public class DefaultBrowserEx extends AbstractBrowser {
         return ret;
     }
 }
+

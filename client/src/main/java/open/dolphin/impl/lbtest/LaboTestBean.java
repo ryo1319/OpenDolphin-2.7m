@@ -6,8 +6,8 @@ import java.awt.event.*;
 import java.text.MessageFormat;
 import java.util.*;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionEvent;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
 import open.dolphin.client.AbstractChartDocument;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
@@ -942,3 +942,4 @@ public class LaboTestBean extends AbstractChartDocument {
     }
 //s.oh$
 }
+

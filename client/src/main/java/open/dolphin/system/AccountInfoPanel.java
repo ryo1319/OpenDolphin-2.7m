@@ -9,15 +9,15 @@ import java.beans.PropertyChangeSupport;
 import java.text.MessageFormat;
 import java.util.Date;
 
-import jakarta.swing.BoxLayout;
-import jakarta.swing.JComboBox;
-import jakarta.swing.JLabel;
-import jakarta.swing.JPanel;
-import jakarta.swing.JPasswordField;
-import jakarta.swing.JTextField;
-import jakarta.swing.SwingConstants;
-import jakarta.swing.event.DocumentEvent;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.BoxLayout;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
 import open.dolphin.client.RegexConstrainedDocument;
@@ -416,3 +416,4 @@ public final class AccountInfoPanel extends JPanel {
         return passwd1.equals(passwd2);
     }
 }
+

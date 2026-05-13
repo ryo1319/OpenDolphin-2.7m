@@ -1,8 +1,8 @@
 package open.dolphin.stampbox;
 
-import jakarta.swing.tree.DefaultTreeModel;
-import jakarta.swing.tree.TreeNode;
-import jakarta.swing.tree.TreePath;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
 import open.dolphin.infomodel.ModuleInfoBean;
 
 /**
@@ -52,3 +52,4 @@ public class StampTreeModel extends DefaultTreeModel {
         nodeChanged(node);
     }
 }
+

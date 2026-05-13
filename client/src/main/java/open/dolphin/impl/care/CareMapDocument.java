@@ -8,7 +8,7 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.*;
 import java.util.List;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.*;
 import open.dolphin.delegater.AppointmentDelegater;
 import open.dolphin.delegater.DocumentDelegater;
@@ -790,3 +790,4 @@ public final class CareMapDocument extends AbstractChartDocument {
         }
     }
 }
+

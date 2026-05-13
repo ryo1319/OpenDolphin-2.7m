@@ -6,9 +6,9 @@ import java.awt.event.WindowEvent;
 import java.beans.EventHandler;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import jakarta.swing.*;
-import jakarta.swing.event.DocumentEvent;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 
 /**
  *
@@ -125,3 +125,4 @@ public final class ChangeNumDatesDialog {
         chagneBtn.setEnabled(ok);
     }
 }
+

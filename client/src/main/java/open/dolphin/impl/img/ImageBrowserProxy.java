@@ -1,8 +1,8 @@
 package open.dolphin.impl.img;
 
 import java.beans.PropertyChangeListener;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.JPanel;
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
 import open.dolphin.client.Chart;
 import open.dolphin.client.ChartDocument;
 import open.dolphin.client.ClientContext;
@@ -139,3 +139,4 @@ public class ImageBrowserProxy implements ChartDocument {
         getBrowser().setChartDocDidSave(b);
     }
 }
+

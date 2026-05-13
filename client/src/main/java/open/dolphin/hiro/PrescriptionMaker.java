@@ -14,12 +14,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
-import jakarta.swing.JButton;
-import jakarta.swing.JDialog;
-import jakarta.swing.JOptionPane;
-import jakarta.swing.JTextField;
-import jakarta.swing.SwingWorker;
-import jakarta.swing.UIManager;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+import javax.swing.SwingWorker;
+import javax.swing.UIManager;
 import open.dolphin.client.Chart;
 import open.dolphin.client.ClientContext;
 import open.dolphin.delegater.OrcaDelegater;
@@ -473,3 +473,4 @@ public class PrescriptionMaker {
 //minagawa$         
     }
 }
+

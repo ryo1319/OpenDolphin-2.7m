@@ -7,11 +7,11 @@ import java.text.DateFormat;
 import java.text.MessageFormat;
 import java.util.*;
 import java.util.logging.Logger;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.UIManager;
-import jakarta.swing.UnsupportedLookAndFeelException;
-import jakarta.swing.border.EmptyBorder;
-import jakarta.swing.plaf.basic.BasicTextPaneUI;
+import javax.swing.ImageIcon;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.border.EmptyBorder;
+import javax.swing.plaf.basic.BasicTextPaneUI;
 import open.dolphin.exception.DolphinException;
 import open.dolphin.infomodel.DepartmentModel;
 import open.dolphin.infomodel.LicenseModel;
@@ -551,3 +551,4 @@ public final class ClientContextStub {
         }        
     }   
 }
+

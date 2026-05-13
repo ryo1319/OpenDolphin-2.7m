@@ -14,8 +14,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.swing.*;
-import jakarta.swing.table.*;
+import javax.swing.*;
+import javax.swing.table.*;
 
 /**
  * テーブルの拡張クラス
@@ -978,3 +978,4 @@ class DefaultTableCellRendererEx extends DefaultTableCellRenderer {
         return (Component)label;
     }
 }
+

@@ -222,3 +222,4 @@ public final class RelaySettingBean extends AbstractSettingBean {
         this.pvtRelayEncoding = pvtRelayEncoding;
     }
 }
+

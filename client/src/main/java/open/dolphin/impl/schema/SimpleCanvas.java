@@ -336,3 +336,4 @@ public class SimpleCanvas extends javax.swing.JDialog {
     }
     
 }
+

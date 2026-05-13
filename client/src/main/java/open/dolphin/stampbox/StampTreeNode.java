@@ -1,6 +1,6 @@
 package open.dolphin.stampbox;
 
-import jakarta.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultMutableTreeNode;
 import open.dolphin.infomodel.ModuleInfoBean;
 
 /**
@@ -39,3 +39,4 @@ public class StampTreeNode extends DefaultMutableTreeNode {
         return (ModuleInfoBean) userObject;
     }
 }
+

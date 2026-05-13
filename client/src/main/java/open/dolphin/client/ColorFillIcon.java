@@ -8,7 +8,7 @@ package open.dolphin.client;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics;
-import jakarta.swing.Icon;
+import javax.swing.Icon;
 
 /**
  * Core Java Foundation Class by Kim topley.
@@ -87,3 +87,4 @@ public class ColorFillIcon implements Icon {
     public static final int DEFAULT_SIZE = 32;
 
 }
+

@@ -3,8 +3,8 @@ package open.dolphin.impl.scheam.schemahelper;
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.border.AbstractBorder;
+import javax.swing.ImageIcon;
+import javax.swing.border.AbstractBorder;
 import open.dolphin.impl.scheam.SchemaEditorImpl;
 
 /**
@@ -37,3 +37,4 @@ public class SchemaTitleBorder extends AbstractBorder {
         return false;
     }
 }
+

@@ -10,9 +10,9 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.text.MessageFormat;
 import java.util.*;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionEvent;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.table.TableColumn;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.delegater.LetterDelegater;
 import open.dolphin.dto.DocumentSearchSpec;
@@ -907,3 +907,4 @@ public class DocumentHistory {
         }
     }
 }
+

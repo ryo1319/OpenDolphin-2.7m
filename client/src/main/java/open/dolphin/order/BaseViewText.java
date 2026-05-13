@@ -341,3 +341,4 @@ public class BaseViewText extends javax.swing.JPanel implements IBaseView  {
     }
 //s.oh$
 }
+

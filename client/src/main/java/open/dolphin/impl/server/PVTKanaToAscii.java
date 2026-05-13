@@ -514,3 +514,4 @@ public class PVTKanaToAscii {
         System.err.println(result);
     }
 }
+

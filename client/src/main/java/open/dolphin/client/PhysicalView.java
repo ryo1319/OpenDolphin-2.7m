@@ -64,3 +64,4 @@ public class PhysicalView extends javax.swing.JPanel {
         return table;
     }
 }
+

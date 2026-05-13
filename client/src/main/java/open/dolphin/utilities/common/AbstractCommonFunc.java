@@ -39,3 +39,4 @@ public abstract class AbstractCommonFunc implements CommonDefImpl {
         return debugInfo;
     }
 }
+

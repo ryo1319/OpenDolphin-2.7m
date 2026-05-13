@@ -14,7 +14,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.UUID;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.BlockGlass;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.ILoginDialog;
@@ -416,3 +416,4 @@ public abstract class AbstractLoginDialog implements ILoginDialog {
     }
 //s.oh$
 }
+

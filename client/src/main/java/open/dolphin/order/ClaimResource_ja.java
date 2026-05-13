@@ -219,3 +219,4 @@ public final class ClaimResource_ja extends ListResourceBundle {
         };
     }
 }
+

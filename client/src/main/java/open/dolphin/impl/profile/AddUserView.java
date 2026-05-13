@@ -220,3 +220,4 @@ public class AddUserView extends javax.swing.JPanel {
         return userPassword2;
     }
 }
+

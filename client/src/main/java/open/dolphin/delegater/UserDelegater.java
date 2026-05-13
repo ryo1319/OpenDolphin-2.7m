@@ -3,7 +3,7 @@ package open.dolphin.delegater;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import jakarta.ws.rs.core.MediaType;
+import javax.ws.rs.core.MediaType;
 import open.dolphin.converter.UserModelConverter;
 import open.dolphin.infomodel.ActivityModel;
 import open.dolphin.infomodel.IInfoModel;
@@ -170,3 +170,4 @@ public final class UserDelegater extends BusinessDelegater {
     }
 //s.oh$
 }
+

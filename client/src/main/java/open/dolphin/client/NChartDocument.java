@@ -7,3 +7,4 @@ package open.dolphin.client;
 public interface NChartDocument extends ChartDocument {
 
 }
+

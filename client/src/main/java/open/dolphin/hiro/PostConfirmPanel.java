@@ -183,3 +183,4 @@ public class PostConfirmPanel extends javax.swing.JPanel {
         return generalChk;
     }
 }
+

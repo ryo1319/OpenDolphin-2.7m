@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.table.TableColumn;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.helper.DBTask;
 import open.dolphin.infomodel.IInfoModel;
@@ -430,3 +430,4 @@ public final class PhysicalInspector {
         task.execute();
     }
 }
+

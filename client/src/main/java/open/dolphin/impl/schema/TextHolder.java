@@ -23,3 +23,4 @@ public class TextHolder extends AreaHolder {
         return r.contains(p);
     }
 }
+

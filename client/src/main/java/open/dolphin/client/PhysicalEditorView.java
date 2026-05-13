@@ -107,3 +107,4 @@ public class PhysicalEditorView extends javax.swing.JPanel {
         return weightFld;
     }
 }
+

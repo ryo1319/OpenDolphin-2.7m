@@ -144,3 +144,4 @@ public class PatientScheduleView extends javax.swing.JPanel {
         return updateButton;
     }
 }
+

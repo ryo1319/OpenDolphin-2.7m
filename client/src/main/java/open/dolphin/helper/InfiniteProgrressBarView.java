@@ -78,3 +78,4 @@ public class InfiniteProgrressBarView extends javax.swing.JPanel {
         return progressBar;
     }
 }
+

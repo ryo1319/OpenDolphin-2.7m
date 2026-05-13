@@ -17,12 +17,12 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-import jakarta.print.attribute.HashPrintRequestAttributeSet;
-import jakarta.print.attribute.PrintRequestAttributeSet;
-import jakarta.swing.*;
-import jakarta.swing.Timer;
-import jakarta.swing.event.ChangeEvent;
-import jakarta.swing.event.MenuEvent;
+import javax.print.attribute.HashPrintRequestAttributeSet;
+import javax.print.attribute.PrintRequestAttributeSet;
+import javax.swing.*;
+import javax.swing.Timer;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.MenuEvent;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.delegater.OrcaDelegater;
 import open.dolphin.delegater.OrcaDelegaterFactory;
@@ -1940,3 +1940,4 @@ public class Dolphin implements MainWindow {
         //pro? dolphin? どっち？
     }
 }
+

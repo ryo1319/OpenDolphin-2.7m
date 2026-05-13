@@ -13,12 +13,12 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.imageio.ImageIO;
-import jakarta.imageio.ImageWriter;
-import jakarta.imageio.stream.ImageOutputStream;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.JFrame;
-import jakarta.swing.JLabel;
+import javax.imageio.ImageIO;
+import javax.imageio.ImageWriter;
+import javax.imageio.stream.ImageOutputStream;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
 import open.dolphin.utilities.common.Dicom;
 
 /**
@@ -229,3 +229,4 @@ public final class DicomLib extends Dicom {
         }
     }
 }
+

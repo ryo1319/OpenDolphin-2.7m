@@ -12,11 +12,11 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Iterator;
-import jakarta.swing.AbstractAction;
-import jakarta.swing.BorderFactory;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.JPopupMenu;
-import jakarta.swing.text.Position;
+import javax.swing.AbstractAction;
+import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
+import javax.swing.JPopupMenu;
+import javax.swing.text.Position;
 import open.dolphin.infomodel.SchemaModel;
 import open.dolphin.plugin.PluginLoader;
 import open.dolphin.project.Project;
@@ -224,3 +224,4 @@ public final class SchemaHolder extends AbstractComponentHolder implements Compo
         }
     }
 }
+

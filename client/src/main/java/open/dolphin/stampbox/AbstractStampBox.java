@@ -3,8 +3,8 @@ package open.dolphin.stampbox;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
-import jakarta.swing.JTabbedPane;
-import jakarta.swing.tree.DefaultMutableTreeNode;
+import javax.swing.JTabbedPane;
+import javax.swing.tree.DefaultMutableTreeNode;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.IStampTreeModel;
 import open.dolphin.infomodel.ModuleInfoBean;
@@ -192,3 +192,4 @@ public abstract class AbstractStampBox extends JTabbedPane implements IStampBox 
         return sb.toString();
     }
 }
+

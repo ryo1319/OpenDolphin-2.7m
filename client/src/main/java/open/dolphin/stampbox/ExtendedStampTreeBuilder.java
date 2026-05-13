@@ -321,3 +321,4 @@ public class ExtendedStampTreeBuilder {
         return ret;
     }
 }
+

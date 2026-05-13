@@ -10,8 +10,8 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import jakarta.swing.Action;
-import jakarta.swing.text.*;
+import javax.swing.Action;
+import javax.swing.text.*;
 import open.dolphin.infomodel.DocumentModel;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.ModuleModel;
@@ -504,3 +504,4 @@ public class KarteRenderer_2 {
         }
     }
 }
+

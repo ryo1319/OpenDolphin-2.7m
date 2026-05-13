@@ -14,20 +14,20 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.swing.ButtonGroup;
-import jakarta.swing.JButton;
-import jakarta.swing.JCheckBox;
-import jakarta.swing.JComboBox;
-import jakarta.swing.JFileChooser;
-import jakarta.swing.JPanel;
-import jakarta.swing.JRadioButton;
-import jakarta.swing.JSpinner;
-import jakarta.swing.JTextField;
-import jakarta.swing.SpinnerModel;
-import jakarta.swing.SpinnerNumberModel;
-import jakarta.swing.SwingConstants;
-import jakarta.swing.event.ChangeEvent;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JFileChooser;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JSpinner;
+import javax.swing.JTextField;
+import javax.swing.SpinnerModel;
+import javax.swing.SpinnerNumberModel;
+import javax.swing.SwingConstants;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.DocumentListener;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -434,3 +434,4 @@ public abstract class AbstractPropertySheet {
         setState(newState);
     }
 }
+

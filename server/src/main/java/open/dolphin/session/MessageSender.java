@@ -18,7 +18,6 @@ import open.dolphin.mbean.PVTBuilder;
 import open.dolphin.msg.ClaimSender;
 import open.dolphin.msg.DiagnosisSender;
 import open.dolphin.msg.OidSender;
-import org.jboss.ejb3.annotation.ResourceAdapter;
 
 //s.oh^ 2014/02/21 Claim送信方法の変更
 //@MessageDriven(activationConfig = {

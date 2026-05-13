@@ -8,7 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import jakarta.swing.SwingWorker;
+import javax.swing.SwingWorker;
 import open.dolphin.client.ChartEventHandler;
 import open.dolphin.util.KanaToAscii;
 import open.dolphin.infomodel.ChartEventModel;
@@ -108,3 +108,4 @@ public class PVTRelay implements PropertyChangeListener {
         }
     }
 }
+

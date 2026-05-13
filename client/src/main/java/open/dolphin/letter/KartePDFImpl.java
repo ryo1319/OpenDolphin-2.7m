@@ -27,20 +27,20 @@ import java.util.Iterator;
 import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.imageio.ImageIO;
-import jakarta.print.Doc;
-import jakarta.print.DocFlavor;
-import jakarta.print.DocPrintJob;
-import jakarta.print.PrintException;
-import jakarta.print.PrintService;
-import jakarta.print.PrintServiceLookup;
-import jakarta.print.ServiceUI;
-import jakarta.print.SimpleDoc;
-import jakarta.print.attribute.DocAttributeSet;
-import jakarta.print.attribute.HashDocAttributeSet;
-import jakarta.print.attribute.HashPrintRequestAttributeSet;
-import jakarta.print.attribute.PrintRequestAttributeSet;
-import jakarta.swing.ImageIcon;
+import javax.imageio.ImageIO;
+import javax.print.Doc;
+import javax.print.DocFlavor;
+import javax.print.DocPrintJob;
+import javax.print.PrintException;
+import javax.print.PrintService;
+import javax.print.PrintServiceLookup;
+import javax.print.ServiceUI;
+import javax.print.SimpleDoc;
+import javax.print.attribute.DocAttributeSet;
+import javax.print.attribute.HashDocAttributeSet;
+import javax.print.attribute.HashPrintRequestAttributeSet;
+import javax.print.attribute.PrintRequestAttributeSet;
+import javax.swing.ImageIcon;
 import open.dolphin.client.ClientContext;
 import open.dolphin.impl.lbtest.LaboTestOutputPDF;
 import open.dolphin.infomodel.AttachmentModel;
@@ -529,3 +529,4 @@ public class KartePDFImpl {
         return ret;
     }
 }
+

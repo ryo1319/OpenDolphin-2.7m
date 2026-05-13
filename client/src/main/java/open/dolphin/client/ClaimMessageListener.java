@@ -23,3 +23,4 @@ public interface ClaimMessageListener extends MainService {
     public void claimMessageEvent(ClaimMessageEvent e);
 
 }
+

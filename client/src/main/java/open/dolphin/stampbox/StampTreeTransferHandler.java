@@ -5,13 +5,13 @@ import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
-import jakarta.swing.JComponent;
-import jakarta.swing.JTree;
-import jakarta.swing.TransferHandler;
-import jakarta.swing.tree.DefaultMutableTreeNode;
-import jakarta.swing.tree.DefaultTreeModel;
-import jakarta.swing.tree.TreeNode;
-import jakarta.swing.tree.TreePath;
+import javax.swing.JComponent;
+import javax.swing.JTree;
+import javax.swing.TransferHandler;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
 import open.dolphin.client.LocalStampTreeNodeTransferable;
 import open.dolphin.client.OrderList;
 import open.dolphin.client.OrderListTransferable;
@@ -248,3 +248,4 @@ public class StampTreeTransferHandler extends TransferHandler {
         return match;
     }
 }
+

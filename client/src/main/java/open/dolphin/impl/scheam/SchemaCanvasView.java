@@ -238,3 +238,4 @@ public class SchemaCanvasView extends javax.swing.JFrame {
     private javax.swing.JPanel titlePanel;
     // End of variables declaration//GEN-END:variables
 }
+

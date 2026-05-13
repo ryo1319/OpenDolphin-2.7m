@@ -181,3 +181,4 @@ public class ASpStampTreeBuilder extends AbstractStampTreeBuilder {
         return (StampTreeNode) linkedList.getFirst();
     }
 }
+

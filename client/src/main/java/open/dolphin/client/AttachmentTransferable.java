@@ -54,3 +54,4 @@ public final class AttachmentTransferable implements Transferable, ClipboardOwne
     public void lostOwnership(Clipboard clipboard, Transferable contents) {
     }
 }
+

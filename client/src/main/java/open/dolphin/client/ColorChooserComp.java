@@ -7,7 +7,7 @@ import java.awt.event.MouseMotionListener;
 import java.awt.geom.Ellipse2D;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import jakarta.swing.JComponent;
+import javax.swing.JComponent;
 
 /**
  * ColorChooserLabel
@@ -162,3 +162,4 @@ public class ColorChooserComp extends JComponent implements MouseListener, Mouse
         }
     }
 }
+

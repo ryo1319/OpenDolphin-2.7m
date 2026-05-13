@@ -23,3 +23,4 @@ public class DolphinException extends java.lang.RuntimeException {
         super(s, t);
     }     
 }
+

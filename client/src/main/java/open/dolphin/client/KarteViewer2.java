@@ -5,9 +5,9 @@ import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.event.MouseListener;
 import java.text.MessageFormat;
-import jakarta.swing.JTextPane;
-import jakarta.swing.SwingConstants;
-import jakarta.swing.text.BadLocationException;
+import javax.swing.JTextPane;
+import javax.swing.SwingConstants;
+import javax.swing.text.BadLocationException;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.ModelUtils;
 import open.dolphin.project.Project;
@@ -206,3 +206,4 @@ public class KarteViewer2 extends KarteViewer {
         pPane.getTextPane().addMouseListener(ml);
     }
 }
+

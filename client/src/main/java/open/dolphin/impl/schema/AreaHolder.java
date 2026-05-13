@@ -109,3 +109,4 @@ public class AreaHolder implements DrawingHolder {
 	area.transform(trans);
     }
 }
+

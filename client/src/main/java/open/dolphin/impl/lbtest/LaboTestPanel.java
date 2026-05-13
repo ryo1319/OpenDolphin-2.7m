@@ -10,8 +10,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionEvent;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
 import open.dolphin.client.AbstractChartDocument;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
@@ -957,3 +957,4 @@ public class LaboTestPanel extends AbstractChartDocument {
         frame.setVisible(true);
     }
 }
+

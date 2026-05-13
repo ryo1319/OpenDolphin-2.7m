@@ -12,3 +12,4 @@ public class DolphinDTO implements Serializable {
 	private static final long serialVersionUID = -7595001665843525194L;
 	
 }
+

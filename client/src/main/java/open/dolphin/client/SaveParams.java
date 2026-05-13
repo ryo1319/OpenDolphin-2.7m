@@ -139,3 +139,4 @@ public final class SaveParams {
         this.hasLabtest = sendLabtestEnabled;
     }
 }
+

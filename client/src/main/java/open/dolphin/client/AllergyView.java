@@ -95,3 +95,4 @@ public class AllergyView extends javax.swing.JPanel {
     }
     
 }
+

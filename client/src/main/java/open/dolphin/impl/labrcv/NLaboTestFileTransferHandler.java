@@ -13,10 +13,10 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.JOptionPane;
-import jakarta.swing.SwingUtilities;
-import jakarta.swing.SwingWorker;
-import jakarta.swing.TransferHandler;
+import javax.swing.JOptionPane;
+import javax.swing.SwingUtilities;
+import javax.swing.SwingWorker;
+import javax.swing.TransferHandler;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.LabResultParser;
 import open.dolphin.delegater.LaboDelegater;
@@ -177,3 +177,4 @@ public class NLaboTestFileTransferHandler extends TransferHandler {
         worker.execute();
     }
 }
+

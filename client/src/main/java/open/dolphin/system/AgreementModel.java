@@ -28,3 +28,4 @@ public final class AgreementModel {
             this.agreeText = agreeText;
     }
 }
+

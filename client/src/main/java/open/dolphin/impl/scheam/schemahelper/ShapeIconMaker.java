@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
-import jakarta.swing.ImageIcon;
+import javax.swing.ImageIcon;
 
 /**
  * @author Minagawa,Kazushi
@@ -39,3 +39,4 @@ public class ShapeIconMaker {
         return Toolkit.getDefaultToolkit().createCustomCursor(icon.getImage(), new Point(16, 16), "");
     }
 }
+

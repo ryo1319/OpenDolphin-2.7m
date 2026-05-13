@@ -3,14 +3,14 @@ package open.dolphin.client;
 import java.awt.Toolkit;
 import java.awt.datatransfer.*;
 import java.io.IOException;
-import jakarta.swing.ActionMap;
-import jakarta.swing.JComponent;
-import jakarta.swing.TransferHandler;
-import jakarta.swing.event.CaretEvent;
-import jakarta.swing.text.BadLocationException;
-import jakarta.swing.text.Document;
-import jakarta.swing.text.JTextComponent;
-import jakarta.swing.text.Position;
+import javax.swing.ActionMap;
+import javax.swing.JComponent;
+import javax.swing.TransferHandler;
+import javax.swing.event.CaretEvent;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Document;
+import javax.swing.text.JTextComponent;
+import javax.swing.text.Position;
 import open.dolphin.infomodel.BundleDolphin;
 import open.dolphin.infomodel.ModuleModel;
 
@@ -211,3 +211,4 @@ public class BundleTransferHandler extends TransferHandler implements IKarteTran
         return canImport;
     }
 }
+

@@ -284,3 +284,4 @@ public class IgnoreNullLineRenderer extends LineAndShapeRenderer {
         return -1;
     }
 }
+

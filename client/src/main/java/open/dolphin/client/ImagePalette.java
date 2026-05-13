@@ -15,9 +15,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.table.DefaultTableCellRenderer;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.TableColumn;
 
 /**
  * ImagePalette
@@ -302,3 +302,4 @@ public class ImagePalette extends JPanel implements DragSourceListener, DragGest
         }
     }
 }
+

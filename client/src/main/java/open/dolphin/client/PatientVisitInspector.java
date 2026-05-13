@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.util.ArrayList;
 import java.util.List;
-import jakarta.swing.JPanel;
+import javax.swing.JPanel;
 import open.dolphin.infomodel.SimpleDate;
 
 /**
@@ -62,3 +62,4 @@ public class PatientVisitInspector {
         }
     }
 }
+

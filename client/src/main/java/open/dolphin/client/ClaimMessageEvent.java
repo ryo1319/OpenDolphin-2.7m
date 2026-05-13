@@ -77,3 +77,4 @@ public class ClaimMessageEvent extends java.util.EventObject {
         confirmDate = val;
     }
 }
+

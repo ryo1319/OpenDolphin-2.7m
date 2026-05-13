@@ -1,6 +1,6 @@
 package open.dolphin.client;
 
-import jakarta.swing.JCheckBox;
+import javax.swing.JCheckBox;
 
 /**
  *
@@ -53,3 +53,4 @@ public final class UnsavedDocument {
         return doc.getTitle();
     }
 }
+

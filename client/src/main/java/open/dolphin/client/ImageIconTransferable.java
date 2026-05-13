@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.awt.datatransfer.*;
 import java.io.IOException;
-import jakarta.swing.ImageIcon;
+import javax.swing.ImageIcon;
 
      
 /**
@@ -55,3 +55,4 @@ public final class ImageIconTransferable implements Transferable, ClipboardOwner
     public void lostOwnership(Clipboard clipboard, Transferable contents) {
     }
 }
+

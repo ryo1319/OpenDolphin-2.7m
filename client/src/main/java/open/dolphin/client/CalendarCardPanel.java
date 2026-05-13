@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.infomodel.SimpleDate;
 
 /**
@@ -250,3 +250,4 @@ public class CalendarCardPanel extends JPanel  {
         }
     }
 }
+

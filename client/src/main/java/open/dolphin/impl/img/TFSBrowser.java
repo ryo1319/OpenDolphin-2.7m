@@ -9,8 +9,8 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ResourceBundle;
-import jakarta.swing.*;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.table.TableColumn;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIConst;
 import open.dolphin.client.ImageEntry;
@@ -480,3 +480,4 @@ public class TFSBrowser extends AbstractBrowser {
         setUI(view);
     }
 }
+

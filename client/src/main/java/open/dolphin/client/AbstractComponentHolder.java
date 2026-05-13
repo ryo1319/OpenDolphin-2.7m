@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.awt.Cursor;
 import java.awt.event.*;
-import jakarta.swing.*;
+import javax.swing.*;
 
 /**
  * ComponentHolder
@@ -123,3 +123,4 @@ public abstract class AbstractComponentHolder extends JLabel {
     
     public abstract void mabeShowPopup(MouseEvent e);
 }
+

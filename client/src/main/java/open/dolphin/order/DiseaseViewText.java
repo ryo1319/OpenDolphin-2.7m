@@ -304,3 +304,4 @@ public class DiseaseViewText extends javax.swing.JPanel implements IDiseaseView 
 //s.oh$
 
 }
+

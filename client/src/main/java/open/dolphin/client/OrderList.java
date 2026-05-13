@@ -30,3 +30,4 @@ public final class OrderList implements java.io.Serializable {
     	orderList = stamp;
     }
 }
+

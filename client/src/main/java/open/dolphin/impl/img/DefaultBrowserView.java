@@ -140,3 +140,4 @@ public class DefaultBrowserView extends javax.swing.JPanel {
     }
 //s.oh$
 }
+

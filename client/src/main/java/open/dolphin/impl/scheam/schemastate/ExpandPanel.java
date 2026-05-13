@@ -6,8 +6,8 @@
 
 package open.dolphin.impl.scheam.schemastate;
 
-import jakarta.swing.event.ChangeEvent;
-import jakarta.swing.event.ChangeListener;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 /**
  *
@@ -95,3 +95,4 @@ public class ExpandPanel extends javax.swing.JPanel {
         return expandSdr.getValue();
     }
 }
+

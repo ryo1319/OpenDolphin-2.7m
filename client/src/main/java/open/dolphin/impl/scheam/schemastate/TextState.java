@@ -7,7 +7,7 @@ import java.awt.Shape;
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.geom.AffineTransform;
-import jakarta.swing.JOptionPane;
+import javax.swing.JOptionPane;
 import open.dolphin.client.ClientContext;
 import open.dolphin.impl.scheam.SchemaCanvasDialog2;
 import open.dolphin.impl.scheam.SchemaEditorImpl;
@@ -83,3 +83,4 @@ public class TextState extends AbstractState {
         }
     }
 }
+

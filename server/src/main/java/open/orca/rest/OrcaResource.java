@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.Resource;
 import jakarta.ejb.Singleton;
-import jakarta.sql.DataSource;
+import javax.sql.DataSource;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.PUT;

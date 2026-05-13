@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.beans.PropertyChangeListener;
-import jakarta.swing.JProgressBar;
+import javax.swing.JProgressBar;
 
 /**
  *
@@ -20,3 +20,4 @@ public interface IStatusPanel extends PropertyChangeListener {
     public JProgressBar getProgressBar();
     
 }
+

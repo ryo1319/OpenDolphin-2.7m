@@ -3,8 +3,8 @@ package open.dolphin.impl.care;
 import java.awt.Cursor;
 import java.awt.datatransfer.Transferable;
 import java.awt.dnd.*;
-import jakarta.swing.Icon;
-import jakarta.swing.JLabel;
+import javax.swing.Icon;
+import javax.swing.JLabel;
 import open.dolphin.infomodel.AppointmentModel;
 
 /**
@@ -62,3 +62,4 @@ public class AppointLabel extends JLabel implements DragGestureListener,DragSour
     public void dropActionChanged ( DragSourceDragEvent event) {
     }       
 }
+

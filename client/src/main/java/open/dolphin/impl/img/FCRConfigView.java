@@ -233,3 +233,4 @@ public class FCRConfigView extends javax.swing.JPanel {
         return moveRadio;
     }
 }
+

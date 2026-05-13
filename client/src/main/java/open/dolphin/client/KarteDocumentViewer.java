@@ -14,7 +14,7 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.delegater.OrcaRestDelegater;
 import open.dolphin.helper.DBTask;
@@ -1434,3 +1434,4 @@ public class KarteDocumentViewer extends AbstractChartDocument implements Docume
         }
     }
 }
+

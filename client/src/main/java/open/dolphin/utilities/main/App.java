@@ -1,9 +1,9 @@
 package open.dolphin.utilities.main;
 
 import java.awt.Color;
-import jakarta.swing.JFrame;
-import jakarta.swing.JLabel;
-import jakarta.swing.JPanel;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 import open.dolphin.utilities.control.AccordionPanel;
 
 /**
@@ -49,3 +49,4 @@ public class App
         new App(args);
     }
 }
+

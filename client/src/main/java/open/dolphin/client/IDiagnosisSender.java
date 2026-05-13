@@ -18,3 +18,4 @@ public interface IDiagnosisSender {
     public void send(List<RegisteredDiagnosisModel> data);
 
 }
+

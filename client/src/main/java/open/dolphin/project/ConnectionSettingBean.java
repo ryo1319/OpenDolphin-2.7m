@@ -137,3 +137,4 @@ public final class ConnectionSettingBean extends AbstractSettingBean {
         this.port = port;
     }
 }
+

@@ -2,9 +2,9 @@ package open.dolphin.helper;
 
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
-import jakarta.swing.*;
-import jakarta.swing.event.MenuEvent;
-import jakarta.swing.event.MenuListener;
+import javax.swing.*;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -154,3 +154,4 @@ public class WindowSupport implements MenuListener {
     public void menuCanceled(MenuEvent e) {
     }
 }
+

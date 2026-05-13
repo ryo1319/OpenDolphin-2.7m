@@ -711,3 +711,4 @@ public class MasudaDelegater extends BusinessDelegater {
 //        return list;
 //    }
 }
+

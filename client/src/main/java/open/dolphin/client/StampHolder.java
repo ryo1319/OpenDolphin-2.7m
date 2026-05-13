@@ -9,11 +9,11 @@ import java.beans.PropertyChangeEvent;
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
-import jakarta.swing.AbstractAction;
-import jakarta.swing.BorderFactory;
-import jakarta.swing.JPopupMenu;
-import jakarta.swing.border.Border;
-import jakarta.swing.text.Position;
+import javax.swing.AbstractAction;
+import javax.swing.BorderFactory;
+import javax.swing.JPopupMenu;
+import javax.swing.border.Border;
+import javax.swing.text.Position;
 import open.dolphin.infomodel.*;
 import open.dolphin.order.StampEditor;
 import open.dolphin.project.Project;
@@ -468,3 +468,4 @@ public final class StampHolder extends AbstractComponentHolder implements Compon
         }
     }
 }
+

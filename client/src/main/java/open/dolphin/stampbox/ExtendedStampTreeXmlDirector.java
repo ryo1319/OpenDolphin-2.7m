@@ -4,7 +4,7 @@ package open.dolphin.stampbox;
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.List;
-import jakarta.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultMutableTreeNode;
 
 /**
  * stampBytesも含めたStampTreeXmlDirector
@@ -68,3 +68,4 @@ public class ExtendedStampTreeXmlDirector {
         builder.buildRootEnd();
     }
 }
+

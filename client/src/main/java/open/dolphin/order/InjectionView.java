@@ -351,3 +351,4 @@ public class InjectionView extends javax.swing.JPanel implements IInjectionView 
     }
 //s.oh$
 }
+

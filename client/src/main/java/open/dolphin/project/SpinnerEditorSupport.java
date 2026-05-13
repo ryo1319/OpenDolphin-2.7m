@@ -57,3 +57,4 @@ public class SpinnerEditorSupport extends PropertyEditorSupport {
         this.stepValue = stepValue;
     }
 }
+

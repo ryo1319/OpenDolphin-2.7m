@@ -6,8 +6,8 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionEvent;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
 import open.dolphin.client.BlockGlass;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
@@ -572,3 +572,4 @@ public class StampImporter {
         }
     }
 }
+

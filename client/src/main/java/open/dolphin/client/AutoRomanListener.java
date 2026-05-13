@@ -2,7 +2,7 @@ package open.dolphin.client;
 
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
-import jakarta.swing.text.JTextComponent;
+import javax.swing.text.JTextComponent;
 
 /**
  *
@@ -35,3 +35,4 @@ public class AutoRomanListener implements FocusListener {
     public void focusLost(FocusEvent e) {
     }
 }
+

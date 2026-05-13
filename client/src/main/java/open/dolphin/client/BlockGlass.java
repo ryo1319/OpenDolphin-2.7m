@@ -3,7 +3,7 @@ package open.dolphin.client;
 import java.awt.Toolkit;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import jakarta.swing.JComponent;
+import javax.swing.JComponent;
 
 
 public class BlockGlass extends JComponent implements MouseListener {
@@ -46,3 +46,4 @@ public class BlockGlass extends JComponent implements MouseListener {
     public void mouseExited(MouseEvent e) {
     }
 }
+

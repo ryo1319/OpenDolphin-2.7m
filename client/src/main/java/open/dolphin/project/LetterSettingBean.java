@@ -161,3 +161,4 @@ public final class LetterSettingBean extends AbstractSettingBean {
         this.telephoneOutputPdf = output;
     }
 }
+

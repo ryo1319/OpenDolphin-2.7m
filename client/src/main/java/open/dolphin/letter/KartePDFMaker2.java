@@ -425,3 +425,4 @@ public class KartePDFMaker2 extends AbstractLetterPDFMaker {
         return getPathToPDF();
     }
 }
+

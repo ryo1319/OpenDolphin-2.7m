@@ -36,3 +36,4 @@ public final class Period extends EventObject {
         endDate = val;
     }    
 }
+

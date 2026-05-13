@@ -1,7 +1,7 @@
 package open.dolphin.helper;
 
 import java.awt.*;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -61,3 +61,4 @@ public class InfiniteProgressBar {
         dialog.dispose();
     }
 }
+

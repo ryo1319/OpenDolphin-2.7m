@@ -40,3 +40,4 @@ public interface CommonDefImpl {
     public static final String CHARSET_SHIFTJIS = "Shift_JIS";
 }
 
+

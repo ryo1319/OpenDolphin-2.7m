@@ -24,3 +24,4 @@ public class CancelSaveAllException extends java.lang.RuntimeException {
         super(s, t);
     }     
 }
+

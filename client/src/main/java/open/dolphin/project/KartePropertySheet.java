@@ -11,7 +11,7 @@ import java.beans.PropertyEditor;
 import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -142,3 +142,4 @@ public class KartePropertySheet extends AbstractPropertySheet {
         bean.store();
     }
 }
+

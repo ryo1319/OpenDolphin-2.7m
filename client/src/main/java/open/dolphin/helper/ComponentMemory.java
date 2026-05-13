@@ -100,3 +100,4 @@ public final class ComponentMemory implements ComponentListener {
         target.setBounds(x, y, size.width, size.height);
     }
 }
+

@@ -20,3 +20,4 @@ public interface LabResultParser {
     
     public List<NLaboImportSummary> parse(Path path) throws IOException;
 }
+

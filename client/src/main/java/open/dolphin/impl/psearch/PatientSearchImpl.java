@@ -12,8 +12,8 @@ import java.beans.PropertyChangeListener;
 import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import jakarta.swing.*;
-import jakarta.swing.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
 import open.dolphin.client.*;
 import open.dolphin.delegater.PVTDelegater1;
 import open.dolphin.delegater.PatientDelegater;
@@ -1322,3 +1322,4 @@ public class PatientSearchImpl extends AbstractMainComponent implements Property
 
 //masuda$    
 }
+

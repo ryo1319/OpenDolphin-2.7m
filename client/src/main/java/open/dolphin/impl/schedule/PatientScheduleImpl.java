@@ -8,8 +8,8 @@ import java.beans.EventHandler;
 import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import jakarta.swing.*;
-import jakarta.swing.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
 import open.dolphin.client.*;
 import open.dolphin.delegater.ScheduleDelegater;
 import open.dolphin.helper.SimpleWorker;
@@ -876,3 +876,4 @@ public class PatientScheduleImpl extends AbstractMainComponent {
         }
     }
 }
+

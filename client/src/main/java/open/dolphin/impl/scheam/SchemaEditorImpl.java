@@ -13,8 +13,8 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.ArrayList;
 import java.util.Enumeration;
-import jakarta.swing.*;
-import jakarta.swing.event.ChangeEvent;
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.SchemaEditor;
 import open.dolphin.impl.scheam.holder.DrawingHolder;
@@ -549,3 +549,4 @@ public class SchemaEditorImpl implements SchemaEditor {
         }
     }
 }
+

@@ -23,3 +23,4 @@ public class StampList implements java.io.Serializable {
         return stampList;
     }
 }
+

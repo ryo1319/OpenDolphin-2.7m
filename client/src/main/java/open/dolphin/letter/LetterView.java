@@ -355,3 +355,4 @@ public class LetterView extends Panel2 {
         return atesakiLbl;
     }
 }
+

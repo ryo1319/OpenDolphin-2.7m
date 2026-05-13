@@ -12,9 +12,9 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
-import jakarta.swing.*;
-import jakarta.swing.event.PopupMenuEvent;
-import jakarta.swing.event.PopupMenuListener;
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
 import open.dolphin.helper.WindowSupport;
 import open.dolphin.infomodel.*;
 import open.dolphin.project.Project;
@@ -939,3 +939,4 @@ public class EditorFrame extends AbstractMainTool implements Chart {
         }
     }
 }
+

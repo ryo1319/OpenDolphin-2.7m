@@ -16,9 +16,9 @@ import java.util.*;
 import java.util.List;
 import java.util.concurrent.*;
 import java.util.logging.Level;
-import jakarta.swing.*;
-import jakarta.swing.Timer;
-import jakarta.swing.event.*;
+import javax.swing.*;
+import javax.swing.Timer;
+import javax.swing.event.*;
 import net.sf.jooreports.templates.DocumentTemplate;
 import net.sf.jooreports.templates.DocumentTemplateFactory;
 import open.dolphin.delegater.DocumentDelegater;
@@ -2307,3 +2307,4 @@ public class ChartImpl extends AbstractMainTool implements Chart, IInfoModel {
         }
     }
 }
+

@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 import jakarta.annotation.Resource;
 import jakarta.inject.Inject;
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.sql.DataSource;
+import javax.sql.DataSource;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Context;
 import jakarta.ws.rs.core.MediaType;

@@ -6,8 +6,8 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.crypto.Mac;
-import jakarta.crypto.spec.SecretKeySpec;
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
 import org.apache.commons.codec.binary.Base32;
 
 /**

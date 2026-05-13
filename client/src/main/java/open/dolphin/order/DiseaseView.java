@@ -297,3 +297,4 @@ public class DiseaseView extends javax.swing.JPanel implements IDiseaseView {
     }
 //s.oh$
 }
+

@@ -51,3 +51,4 @@ public class StampBoxResource extends ListResourceBundle {
         };
     }
 }
+

@@ -170,3 +170,4 @@ public class LoginPanelFacility extends javax.swing.JPanel {
         return userIdFld;
     }
 }
+

@@ -9,14 +9,14 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 import java.util.StringTokenizer;
-import jakarta.swing.ActionMap;
-import jakarta.swing.JComponent;
-import jakarta.swing.JTextPane;
-import jakarta.swing.TransferHandler;
-import jakarta.swing.text.BadLocationException;
-import jakarta.swing.text.Document;
-import jakarta.swing.text.JTextComponent;
-import jakarta.swing.text.Position;
+import javax.swing.ActionMap;
+import javax.swing.JComponent;
+import javax.swing.JTextPane;
+import javax.swing.TransferHandler;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Document;
+import javax.swing.text.JTextComponent;
+import javax.swing.text.Position;
 import open.dolphin.infomodel.AttachmentModel;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.ModuleInfoBean;
@@ -436,3 +436,4 @@ public class SOATransferHandler extends TransferHandler implements IKarteTransfe
     public void exit(ActionMap map) {
     }
 }
+

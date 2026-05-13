@@ -2,9 +2,9 @@ package open.dolphin.client;
 
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.Transferable;
-import jakarta.swing.ActionMap;
-import jakarta.swing.JComponent;
-import jakarta.swing.TransferHandler;
+import javax.swing.ActionMap;
+import javax.swing.JComponent;
+import javax.swing.TransferHandler;
 import open.dolphin.infomodel.SchemaModel;
 
 
@@ -96,3 +96,4 @@ public class SchemaHolderTransferHandler extends TransferHandler implements IKar
         schemaHolder.setSelected(false);
     }
 }
+

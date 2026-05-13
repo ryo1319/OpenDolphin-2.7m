@@ -4,10 +4,10 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.util.Date;
 import java.util.List;
-import jakarta.swing.JPanel;
-import jakarta.swing.JScrollPane;
-import jakarta.swing.JTextArea;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.event.DocumentListener;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.PatientMemoModel;
@@ -169,3 +169,4 @@ public class MemoInspector {
         dirty = true;
     }
 }
+

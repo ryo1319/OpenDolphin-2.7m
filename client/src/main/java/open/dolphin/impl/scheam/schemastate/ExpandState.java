@@ -4,7 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
-import jakarta.swing.JOptionPane;
+import javax.swing.JOptionPane;
 import open.dolphin.impl.scheam.SchemaCanvasDialog2;
 import open.dolphin.impl.scheam.SchemaEditorImpl;
 import open.dolphin.impl.scheam.holder.DrawingHolder;
@@ -69,3 +69,4 @@ public class ExpandState extends AbstractState {
     @Override
     public void mouseUp(Point p) {}
 }
+

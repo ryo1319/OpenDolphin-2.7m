@@ -1,9 +1,9 @@
 package open.dolphin.client;
 
-import jakarta.swing.ActionMap;
-import jakarta.swing.JMenuBar;
-import jakarta.swing.JPanel;
-import jakarta.swing.JToolBar;
+import javax.swing.ActionMap;
+import javax.swing.JMenuBar;
+import javax.swing.JPanel;
+import javax.swing.JToolBar;
 import open.dolphin.helper.MenuSupport;
 
 /**
@@ -29,3 +29,4 @@ public abstract class AbstractMenuFactory {
     
     public abstract void build(JMenuBar menuBar);
 }
+

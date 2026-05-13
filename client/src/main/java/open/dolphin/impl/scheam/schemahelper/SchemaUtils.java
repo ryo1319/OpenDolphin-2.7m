@@ -2,7 +2,7 @@ package open.dolphin.impl.scheam.schemahelper;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import jakarta.swing.ImageIcon;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -111,3 +111,4 @@ public class SchemaUtils {
     }
 
 }
+

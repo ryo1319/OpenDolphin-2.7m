@@ -38,3 +38,4 @@ public final class FileListTransferable implements Transferable {
         return fileList;
     }
 }
+

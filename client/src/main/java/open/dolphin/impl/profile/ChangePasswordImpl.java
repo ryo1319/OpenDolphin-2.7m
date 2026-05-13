@@ -5,9 +5,9 @@ import java.awt.event.*;
 import java.text.MessageFormat;
 import java.util.Collection;
 import java.util.ResourceBundle;
-import jakarta.swing.*;
-import jakarta.swing.event.DocumentEvent;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import open.dolphin.client.AbstractMainTool;
 import open.dolphin.client.AutoKanjiListener;
 import open.dolphin.client.AutoRomanListener;
@@ -678,3 +678,4 @@ public class ChangePasswordImpl extends AbstractMainTool implements ChangeProfil
         container.add(cmp);
     }
 }
+

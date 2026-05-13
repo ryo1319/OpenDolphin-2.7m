@@ -119,3 +119,4 @@ public class PatientHelper {
         return uuid.replaceAll("-", "");
     }
 }
+

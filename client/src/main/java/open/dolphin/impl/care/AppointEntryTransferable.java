@@ -54,3 +54,4 @@ public final class AppointEntryTransferable implements Transferable, ClipboardOw
     public void lostOwnership(Clipboard clipboard, Transferable contents) {
     }
 }
+

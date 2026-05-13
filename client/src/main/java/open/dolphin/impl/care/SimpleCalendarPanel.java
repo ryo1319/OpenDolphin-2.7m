@@ -15,10 +15,10 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
-import jakarta.swing.*;
-import jakarta.swing.table.AbstractTableModel;
-import jakarta.swing.table.DefaultTableCellRenderer;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.TableColumn;
 import open.dolphin.client.*;
 import open.dolphin.infomodel.AppointmentModel;
 import open.dolphin.infomodel.ModelUtils;
@@ -1074,3 +1074,4 @@ public final class SimpleCalendarPanel extends JPanel implements DragGestureList
         }
     }
 }
+

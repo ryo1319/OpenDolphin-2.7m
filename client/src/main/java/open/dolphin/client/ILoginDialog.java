@@ -21,3 +21,4 @@ public interface ILoginDialog {
 
     public void doSetting();
 }
+

@@ -6,7 +6,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Properties;
 import java.util.ResourceBundle;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -171,3 +171,4 @@ public class FCRSetting {
         }
     }
 }
+

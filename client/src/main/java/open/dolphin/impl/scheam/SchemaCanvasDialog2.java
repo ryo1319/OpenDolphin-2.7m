@@ -10,7 +10,7 @@ import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.event.*;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.impl.scheam.schemahelper.SchemaTitleBorder;
 
 /**
@@ -275,3 +275,4 @@ public class SchemaCanvasDialog2 extends javax.swing.JDialog {
     // End of variables declaration//GEN-END:variables
 
 }
+

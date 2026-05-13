@@ -8,9 +8,9 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import jakarta.swing.JDialog;
-import jakarta.swing.JFrame;
-import jakarta.swing.SwingUtilities;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
 import open.dolphin.helper.ComponentMemory;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.ModuleModel;
@@ -141,3 +141,4 @@ public class StampEditor implements PropertyChangeListener {
         }
     }
 }
+

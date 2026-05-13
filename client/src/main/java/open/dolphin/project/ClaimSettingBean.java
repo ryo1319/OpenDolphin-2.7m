@@ -262,3 +262,4 @@ public final class ClaimSettingBean extends AbstractSettingBean {
         return ret;
     }
 }
+

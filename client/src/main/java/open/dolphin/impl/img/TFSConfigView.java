@@ -268,3 +268,4 @@ public class TFSConfigView extends javax.swing.JPanel {
         return moveRadio;
     }
 }
+

@@ -1,7 +1,7 @@
 package open.dolphin.impl.psearch;
 
 import java.awt.event.MouseEvent;
-import jakarta.swing.JTable;
+import javax.swing.JTable;
 import open.dolphin.infomodel.PatientModel;
 import open.dolphin.infomodel.PatientVisitModel;
 import open.dolphin.table.ListTableSorter;
@@ -37,3 +37,4 @@ public class AddressTipsTable extends JTable {
         return null;
     }
 }
+

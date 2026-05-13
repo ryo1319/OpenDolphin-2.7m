@@ -272,3 +272,4 @@ public final class StampSettingBean extends AbstractSettingBean {
         showStampName = b;
     }
 }
+

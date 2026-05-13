@@ -9,35 +9,35 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.json.Json;
-import jakarta.json.JsonArray;
-import jakarta.json.JsonObject;
-import jakarta.json.JsonArrayBuilder;
-import jakarta.json.JsonObjectBuilder;
-import jakarta.json.JsonReader;
-import jakarta.json.JsonValue;
-import jakarta.json.JsonWriter;
-import jakarta.json.JsonWriterFactory;
-import jakarta.json.stream.JsonGenerator;
-import jakarta.swing.SwingWorker;
-import jakarta.websocket.ClientEndpoint;
-import jakarta.ws.rs.client.ClientRequestContext;
-import jakarta.ws.rs.client.ClientRequestFilter;
-import jakarta.ws.rs.client.Entity;
-import jakarta.ws.rs.core.Response;
-import jakarta.websocket.ContainerProvider;
-import jakarta.websocket.DeploymentException;
-import jakarta.websocket.OnClose;
-import jakarta.websocket.OnError;
-import jakarta.websocket.OnMessage;
-import jakarta.websocket.OnOpen;
-import jakarta.websocket.Session;
-import jakarta.websocket.WebSocketContainer;
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonArrayBuilder;
+import javax.json.JsonObjectBuilder;
+import javax.json.JsonReader;
+import javax.json.JsonValue;
+import javax.json.JsonWriter;
+import javax.json.JsonWriterFactory;
+import javax.json.stream.JsonGenerator;
+import javax.swing.SwingWorker;
+import javax.websocket.ClientEndpoint;
+import javax.ws.rs.client.ClientRequestContext;
+import javax.ws.rs.client.ClientRequestFilter;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.core.Response;
+import javax.websocket.ContainerProvider;
+import javax.websocket.DeploymentException;
+import javax.websocket.OnClose;
+import javax.websocket.OnError;
+import javax.websocket.OnMessage;
+import javax.websocket.OnOpen;
+import javax.websocket.Session;
+import javax.websocket.WebSocketContainer;
 import open.dolphin.delegater.PHRDelegater;
 import open.dolphin.util.ZenkakuUtils;
-import org.jboss.resteasy.client.jaxrs.ResteasyClient;
-import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
-import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.WebTarget;
 
 /**
  *
@@ -69,8 +69,8 @@ public final class PHRProxy implements MainService {
             .build()
             .toString();
 
-        ResteasyClient client = new ResteasyClientBuilder().build();
-        ResteasyWebTarget target = client.target(IDENTITY_SERVER_URI);
+        Client client = ClientBuilder.newClient();
+        WebTarget target = client.target(IDENTITY_SERVER_URI);
         
         Response response = target.request().post(Entity.text(json));
         int status = response.getStatus();
@@ -80,7 +80,7 @@ public final class PHRProxy implements MainService {
         return entity;
     }
     
-    private ResteasyWebTarget getWebTarget(String path) {
+    private WebTarget getWebTarget(String path) {
         StringBuilder sb = new StringBuilder();
         sb.append(LAYER_ROOT_URI);
         if (path.startsWith("/")) {
@@ -90,7 +90,7 @@ public final class PHRProxy implements MainService {
         }
         String uri = sb.toString();
         
-        ResteasyClient client = new ResteasyClientBuilder().build();
+        Client client = ClientBuilder.newClient();
         client.register((ClientRequestFilter) (ClientRequestContext crc) -> {
             crc.getHeaders().add("Accept", "application/vnd.layer+json; version=1.0");
             crc.getHeaders().add("Content-type", "application/json");
@@ -99,7 +99,7 @@ public final class PHRProxy implements MainService {
         return client.target(uri);
     }
     
-    private ResteasyWebTarget getWebTarget(String path, final String sessionToken) {
+    private WebTarget getWebTarget(String path, final String sessionToken) {
         StringBuilder sb = new StringBuilder();
         sb.append(LAYER_ROOT_URI);
         if (path.startsWith("/")) {
@@ -109,7 +109,7 @@ public final class PHRProxy implements MainService {
         }
         String uri = sb.toString();
         
-        ResteasyClient client = new ResteasyClientBuilder().build();
+        Client client = ClientBuilder.newClient();
         client.register((ClientRequestFilter) (ClientRequestContext crc) -> {
             StringBuilder sb1 = new StringBuilder();
             sb1.append("Layer session-token=");
@@ -125,18 +125,18 @@ public final class PHRProxy implements MainService {
     
     private Response postEasy(String path, String json) {
         getLogger().log(Level.INFO, "json={0}", json);
-        ResteasyWebTarget target = getWebTarget(path);
+        WebTarget target = getWebTarget(path);
         return  target.request().post(Entity.text(json));
     }
     
     private Response postEasy(String path, String sessionToken, String json) {
         getLogger().log(Level.INFO, "json={0}", json);
-        ResteasyWebTarget target = getWebTarget(path, sessionToken);
+        WebTarget target = getWebTarget(path, sessionToken);
         return  target.request().post(Entity.text(json));
     }
     
     private Response getEasy(String path, String sessionToken) {
-        ResteasyWebTarget target = getWebTarget(path, sessionToken);
+        WebTarget target = getWebTarget(path, sessionToken);
         return target.request().get();
     }
     
@@ -252,7 +252,7 @@ public final class PHRProxy implements MainService {
         response.close();
         
         if (status/100 ==2) {
-            jakarta.json.JsonArray array = getJsonArray(entity);
+            javax.json.JsonArray array = getJsonArray(entity);
             for (JsonValue value : array) {
                 JsonObject jso = (JsonObject)value;
                 JsonArray parts = jso.getJsonArray("parts");
@@ -522,3 +522,4 @@ public final class PHRProxy implements MainService {
         }
     }
 }
+

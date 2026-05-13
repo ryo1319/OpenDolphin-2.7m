@@ -5,9 +5,9 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import jakarta.swing.*;
-import jakarta.swing.event.DocumentEvent;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import open.dolphin.infomodel.AllergyModel;
 import open.dolphin.infomodel.IInfoModel;
 import open.dolphin.infomodel.SimpleDate;
@@ -228,3 +228,4 @@ public class AllergyEditor {
         dialog.setVisible(true);
     }
 }
+

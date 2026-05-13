@@ -3,8 +3,8 @@ package open.dolphin.client;
 import java.awt.event.ActionEvent;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import jakarta.swing.AbstractAction;
-import jakarta.swing.Icon;
+import javax.swing.AbstractAction;
+import javax.swing.Icon;
 
 /**
  *
@@ -52,3 +52,4 @@ public class ReflectAction extends AbstractAction {
         }
     }
 }
+

@@ -1,7 +1,7 @@
 package open.dolphin.impl.schema;
 
 import java.awt.*;
-import jakarta.swing.JComponent;
+import javax.swing.JComponent;
 
 /**
  *
@@ -72,3 +72,4 @@ public class SchemaCanvas extends JComponent {
         this.repaint();
     }
 }
+

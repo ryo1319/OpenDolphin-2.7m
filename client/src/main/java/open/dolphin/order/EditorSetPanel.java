@@ -9,9 +9,9 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.HashMap;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.*;
-import jakarta.swing.event.TreeSelectionEvent;
-import jakarta.swing.event.TreeSelectionListener;
+import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
 import open.dolphin.client.ClientContext;
 import open.dolphin.stampbox.StampTree;
 import open.dolphin.stampbox.StampTreeNode;
@@ -543,3 +543,4 @@ public class EditorSetPanel extends JPanel implements PropertyChangeListener, Tr
         connect();
     }
 }
+

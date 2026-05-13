@@ -3,7 +3,7 @@ package open.dolphin.client;
 import java.awt.BorderLayout;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import jakarta.swing.JScrollPane;
+import javax.swing.JScrollPane;
 import open.dolphin.infomodel.DocInfoModel;
 import open.dolphin.infomodel.IInfoModel;
 
@@ -175,3 +175,4 @@ public class DocumentBridgeImpl extends AbstractChartDocument
         return doc;
     }
 }
+

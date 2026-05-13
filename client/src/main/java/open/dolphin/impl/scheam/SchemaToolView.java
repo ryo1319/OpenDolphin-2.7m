@@ -915,3 +915,4 @@ public class SchemaToolView extends javax.swing.JFrame {
     private javax.swing.JSlider widthSlider;
     // End of variables declaration//GEN-END:variables
 }
+

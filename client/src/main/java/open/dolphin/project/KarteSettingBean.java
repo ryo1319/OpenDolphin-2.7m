@@ -846,3 +846,4 @@ public final class KarteSettingBean extends AbstractSettingBean {
         this.karteFontSize = karteFontSize;
     }
 }
+

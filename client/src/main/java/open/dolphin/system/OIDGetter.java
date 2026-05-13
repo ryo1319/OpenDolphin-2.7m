@@ -9,7 +9,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -186,3 +186,4 @@ public class OIDGetter extends JPanel {
         }
     }
 }
+

@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.ImageEntry;
 import open.dolphin.exception.DolphinException;
@@ -415,3 +415,4 @@ public class ImageTableTransferHandler extends TransferHandler {
         return files;
     }
 }
+

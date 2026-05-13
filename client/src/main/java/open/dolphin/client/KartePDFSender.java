@@ -3,7 +3,7 @@ package open.dolphin.client;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import jakarta.swing.JOptionPane;
+import javax.swing.JOptionPane;
 import open.dolphin.helper.UserDocumentHelper;
 import open.dolphin.infomodel.DocumentModel;
 import open.dolphin.letter.KartePDFMaker;
@@ -68,3 +68,4 @@ public class KartePDFSender implements IKarteSender {
         }
     }
 }
+

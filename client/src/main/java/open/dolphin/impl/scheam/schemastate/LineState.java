@@ -41,3 +41,4 @@ public class LineState extends AbstractState {
         shape = null;
     }
 }
+

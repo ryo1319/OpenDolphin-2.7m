@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
-import jakarta.swing.JMenuItem;
-import jakarta.swing.JPopupMenu;
+import javax.swing.JMenuItem;
+import javax.swing.JPopupMenu;
 
 /**
  * リソースデータから PopupMenu を生成するクラス。
@@ -50,5 +50,6 @@ public class PopupMenuFactory {
         return popMenu;
     }
 }
+
 
 

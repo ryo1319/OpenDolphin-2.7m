@@ -147,3 +147,4 @@ public class GUIConst {
     public static final String SEND_MML_IS_RUNNING = "runtime.sendMml";         // MML出力
     
 }
+

@@ -30,3 +30,4 @@ public class DirectoryEditorSupport extends PropertyEditorSupport {
         value = text;
     }
 }
+

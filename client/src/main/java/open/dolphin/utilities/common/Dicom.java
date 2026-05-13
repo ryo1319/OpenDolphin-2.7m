@@ -878,3 +878,4 @@ public class Dicom extends AbstractCommonFunc {
         return(ifl);
     }
 }
+

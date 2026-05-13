@@ -54,3 +54,4 @@ public final class StampTransferable implements Transferable, ClipboardOwner {
     public void lostOwnership(Clipboard clipboard, Transferable contents) {
     }
 }
+

@@ -8,10 +8,10 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.logging.Level;
-import jakarta.swing.text.AttributeSet;
-import jakarta.swing.text.BadLocationException;
-import jakarta.swing.text.DefaultStyledDocument;
-import jakarta.swing.text.StyleConstants;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.StyleConstants;
 import open.dolphin.infomodel.AttachmentModel;
 import open.dolphin.infomodel.ModuleModel;
 import open.dolphin.infomodel.SchemaModel;
@@ -317,3 +317,4 @@ public final class KartePaneDumper_2 {
     }
 //s.oh$
 }
+

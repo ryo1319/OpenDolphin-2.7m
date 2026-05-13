@@ -38,3 +38,4 @@ public final class AppointmentDelegater extends BusinessDelegater {
         return Integer.parseInt(countStr);
     }
 }
+

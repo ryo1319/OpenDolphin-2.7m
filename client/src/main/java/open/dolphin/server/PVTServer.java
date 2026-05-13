@@ -19,3 +19,4 @@ public interface PVTServer extends MainService {
     
     public void setEncoding(String enc);
 }
+

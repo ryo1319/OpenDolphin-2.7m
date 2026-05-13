@@ -5,9 +5,9 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 import java.util.List;
-import jakarta.swing.JComponent;
-import jakarta.swing.JTable;
-import jakarta.swing.TransferHandler;
+import javax.swing.JComponent;
+import javax.swing.JTable;
+import javax.swing.TransferHandler;
 import open.dolphin.infomodel.RegisteredDiagnosisModel;
 import open.dolphin.table.ListTableModel;
 
@@ -100,3 +100,4 @@ public final class RegisteredDiagnosisTransferHandler extends TransferHandler {
         return (support.isDrop() && support.isDataFlavorSupported(registeredDiagnosisFlavor));
     }
 }
+

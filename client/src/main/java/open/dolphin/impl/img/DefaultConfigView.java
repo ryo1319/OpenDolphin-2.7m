@@ -234,3 +234,4 @@ public class DefaultConfigView extends javax.swing.JPanel {
         return moveRadio;
     }
 }
+

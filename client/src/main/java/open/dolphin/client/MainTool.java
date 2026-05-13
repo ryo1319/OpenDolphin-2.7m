@@ -16,3 +16,4 @@ public interface MainTool extends MainService {
     public Callable<Boolean> getStoppingTask();
     
 }
+

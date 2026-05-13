@@ -16,10 +16,10 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.concurrent.*;
-import jakarta.swing.*;
+import javax.swing.*;
 import static javax.swing.SwingConstants.CENTER;
-import jakarta.swing.event.ListSelectionEvent;
-import jakarta.swing.event.ListSelectionListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import open.dolphin.client.*;
 import open.dolphin.delegater.PVTDelegater;
 import open.dolphin.impl.server.PVTReceptionLink;
@@ -2055,3 +2055,4 @@ public class WatingListImpl extends AbstractMainComponent implements PropertyCha
         }
     }
 }
+

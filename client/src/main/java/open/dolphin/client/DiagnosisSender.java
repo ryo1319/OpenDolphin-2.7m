@@ -150,3 +150,4 @@ public class DiagnosisSender implements IDiagnosisSender {
         }
     }
 }
+

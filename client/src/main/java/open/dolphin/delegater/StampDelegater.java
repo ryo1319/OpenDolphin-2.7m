@@ -3,12 +3,12 @@ package open.dolphin.delegater;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import jakarta.ws.rs.client.Entity;
-import jakarta.ws.rs.core.Response;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.Response;
 import open.dolphin.converter.*;
 import open.dolphin.infomodel.*;
 import org.codehaus.jackson.map.ObjectMapper;
-import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 
 /**
  * Stamp関連の Delegater クラス。
@@ -92,7 +92,7 @@ public final class StampDelegater extends BusinessDelegater {
         byte[] data = mapper.writeValueAsBytes(conv);
         
         // PUT
-        ResteasyWebTarget target = getWebTarget(RES_TREE_FORCE_SYNC);
+        WebTarget target = getWebTarget(RES_TREE_FORCE_SYNC);
         Response response = target.request().put(Entity.json(data));
         response.close();
     }
@@ -489,3 +489,4 @@ public final class StampDelegater extends BusinessDelegater {
         return ids.size();
     }
 }
+

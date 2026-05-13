@@ -1,8 +1,8 @@
 package open.dolphin.letter;
 
 import java.awt.FlowLayout;
-import jakarta.swing.JPanel;
-import jakarta.swing.JScrollPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import open.dolphin.client.Chart;
 import open.dolphin.client.ChartImpl;
 import open.dolphin.client.ClientContext;
@@ -154,3 +154,4 @@ public class MedicalCertificateViewer extends MedicalCertificateImpl implements 
         }
     }
 }
+

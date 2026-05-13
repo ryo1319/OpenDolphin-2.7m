@@ -54,3 +54,4 @@ public final class ColumnSpec {
         this.width = cls;
     }
 }
+

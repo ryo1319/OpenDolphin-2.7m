@@ -1,7 +1,7 @@
 package open.dolphin.impl.scheam;
 
 import java.awt.event.ActionEvent;
-import jakarta.swing.*;
+import javax.swing.*;
 
 /**
  * Shortcut key を登録する
@@ -26,3 +26,4 @@ public class ShortcutKey extends AbstractAction {
         button.doClick();
     }
 }
+

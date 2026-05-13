@@ -20,3 +20,4 @@ public interface SchemaEditor {
     public void removePropertyChangeListener(PropertyChangeListener l);
 
 }
+

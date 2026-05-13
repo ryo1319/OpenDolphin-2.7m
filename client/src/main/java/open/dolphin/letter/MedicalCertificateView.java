@@ -266,3 +266,4 @@ public class MedicalCertificateView extends Panel2 {
     }
 
 }
+

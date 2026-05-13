@@ -127,3 +127,4 @@ public class AllergyEditorView extends javax.swing.JPanel {
     }
     
 }
+

@@ -1,8 +1,8 @@
 package open.dolphin.client;
 
 import java.beans.PropertyChangeListener;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.JPanel;
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
 
 
 /**
@@ -49,3 +49,4 @@ public interface ChartDocument  {
 //minagawa$    
     
 }
+

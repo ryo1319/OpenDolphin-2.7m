@@ -4,7 +4,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-import jakarta.swing.JComponent;
+import javax.swing.JComponent;
 
 /**
  *
@@ -50,3 +50,4 @@ public class SchemaCanvas extends JComponent {
         return baseImage;
     }
 }
+

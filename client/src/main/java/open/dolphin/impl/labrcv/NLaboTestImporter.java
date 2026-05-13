@@ -13,8 +13,8 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionEvent;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
 import open.dolphin.client.*;
 import open.dolphin.delegater.LaboDelegater;
 import open.dolphin.impl.lbtest.LaboTestPanel;
@@ -673,3 +673,4 @@ public class NLaboTestImporter extends AbstractMainComponent implements Property
     }
 
 }
+

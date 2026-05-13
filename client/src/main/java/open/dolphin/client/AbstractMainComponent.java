@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.util.concurrent.Callable;
-import jakarta.swing.JPanel;
+import javax.swing.JPanel;
 
 /**
  * Main Window プラグインの抽象クラス。
@@ -82,3 +82,4 @@ public abstract class AbstractMainComponent implements MainComponent {
     public abstract void stop();
     
 }
+

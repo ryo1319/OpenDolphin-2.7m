@@ -156,3 +156,4 @@ public class PatientSearchView extends javax.swing.JPanel {
     }
 //s.oh$
 }
+

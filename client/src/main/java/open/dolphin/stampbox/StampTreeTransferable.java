@@ -54,3 +54,4 @@ public final class StampTreeTransferable implements Transferable, ClipboardOwner
     public void lostOwnership(Clipboard clipboard, Transferable contents) {
     }
 }
+

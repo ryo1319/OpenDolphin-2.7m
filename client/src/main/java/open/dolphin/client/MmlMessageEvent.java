@@ -110,3 +110,4 @@ public class MmlMessageEvent extends java.util.EventObject {
         confirmDate = val;
     }
 }
+

@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.ResourceBundle;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.helper.MenuSupport;
 import open.dolphin.project.Project;
 
@@ -1430,3 +1430,4 @@ public class WindowsMenuFactory extends AbstractMenuFactory {
         }
     }
 }
+

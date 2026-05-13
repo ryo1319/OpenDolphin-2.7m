@@ -3,7 +3,7 @@ package open.dolphin.impl.scheam;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Properties;
-import jakarta.swing.ImageIcon;
+import javax.swing.ImageIcon;
 import open.dolphin.impl.scheam.schemahelper.SchemaUtils;
 import open.dolphin.project.Project;
 
@@ -444,3 +444,4 @@ public class SchemaEditorProperties {
     }
 
 }
+

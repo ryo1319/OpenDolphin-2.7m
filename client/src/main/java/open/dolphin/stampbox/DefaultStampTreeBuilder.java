@@ -366,3 +366,4 @@ public class DefaultStampTreeBuilder extends AbstractStampTreeBuilder {
         return text;
     }
 }
+

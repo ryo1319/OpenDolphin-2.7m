@@ -31,8 +31,8 @@
 
 package open.dolphin.helper;
 
-import jakarta.swing.*;
-import jakarta.swing.SpringLayout;
+import javax.swing.*;
+import javax.swing.SpringLayout;
 import java.awt.*;
 
 /**
@@ -223,3 +223,4 @@ public class SpringUtilities {
         pCons.setConstraint(SpringLayout.EAST, x);
     }
 }
+

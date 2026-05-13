@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.ResourceBundle;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.helper.MenuSupport;
 import open.dolphin.project.Project;
 
@@ -1355,3 +1355,4 @@ public class MacMenuFactory extends AbstractMenuFactory {
                         KeyStroke.getKeyStroke(key, (java.awt.event.InputEvent.SHIFT_MASK | (Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()))));
     }
 }
+

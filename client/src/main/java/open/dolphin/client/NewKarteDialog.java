@@ -8,8 +8,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.EventHandler;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionListener;
+import javax.swing.*;
+import javax.swing.event.ListSelectionListener;
 import open.dolphin.infomodel.PVTHealthInsuranceModel;
 import open.dolphin.project.Project;
 
@@ -358,3 +358,4 @@ public final class NewKarteDialog {
         dialog.dispose();
     }
 }
+

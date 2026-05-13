@@ -490,3 +490,4 @@ public class KanaToAscii {
         System.err.println(result);
     }
 }
+

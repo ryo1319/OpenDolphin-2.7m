@@ -1,6 +1,6 @@
 package open.dolphin.client;
 
-import jakarta.swing.JScrollPane;
+import javax.swing.JScrollPane;
 import open.dolphin.infomodel.DocInfoModel;
 
 /**
@@ -14,3 +14,4 @@ public interface DocumentViewer extends ChartDocument {
     public void showDocuments(DocInfoModel[] docs, JScrollPane scroller);
 
 }
+

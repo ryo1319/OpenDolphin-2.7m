@@ -264,3 +264,4 @@ public class ExtendedStampTreeXmlBuilder {
         return text;
     }
 }
+

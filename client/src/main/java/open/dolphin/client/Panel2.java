@@ -8,8 +8,8 @@ import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
-import jakarta.swing.JPanel;
-import jakarta.swing.SwingUtilities;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
 /**
  *
@@ -150,3 +150,4 @@ public class Panel2 extends JPanel implements Printable {
         return Printable.PAGE_EXISTS;
     }    
 }
+

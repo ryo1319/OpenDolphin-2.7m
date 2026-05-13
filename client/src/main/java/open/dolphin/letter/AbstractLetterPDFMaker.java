@@ -143,3 +143,4 @@ public abstract class AbstractLetterPDFMaker {
         this.pathToPDF = fileName;
     }
 }
+

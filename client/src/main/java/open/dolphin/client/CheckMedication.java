@@ -5,7 +5,7 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import jakarta.swing.JOptionPane;
+import javax.swing.JOptionPane;
 import open.dolphin.delegater.MasudaDelegater;
 import open.dolphin.delegater.OrcaDelegater;
 import open.dolphin.delegater.OrcaDelegaterFactory;
@@ -227,3 +227,4 @@ public class CheckMedication {
         return buf.toString();
     }
 }
+

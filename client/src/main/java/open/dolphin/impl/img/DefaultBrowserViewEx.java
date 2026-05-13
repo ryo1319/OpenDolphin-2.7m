@@ -169,3 +169,4 @@ public class DefaultBrowserViewEx extends javax.swing.JPanel {
     }
 //s.oh$
 }
+

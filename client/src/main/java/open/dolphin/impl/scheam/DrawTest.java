@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.swing.ImageIcon;
-import jakarta.swing.UIManager;
-import jakarta.swing.UnsupportedLookAndFeelException;
+import javax.swing.ImageIcon;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 import open.dolphin.infomodel.ExtRefModel;
 import open.dolphin.infomodel.SchemaModel;
 
@@ -69,3 +69,4 @@ public class DrawTest {
         editor.start();
     }
 }
+

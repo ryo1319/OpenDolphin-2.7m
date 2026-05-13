@@ -1,7 +1,7 @@
 package open.dolphin.client;
 
 import java.io.Serializable;
-import jakarta.swing.ImageIcon;
+import javax.swing.ImageIcon;
 
 /**
  * ImageEntry
@@ -193,3 +193,4 @@ public class ImageEntry implements Serializable {
     }
 //s.oh$
 }
+

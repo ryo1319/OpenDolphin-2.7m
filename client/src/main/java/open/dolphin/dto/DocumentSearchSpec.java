@@ -156,3 +156,4 @@ public class DocumentSearchSpec extends DolphinDTO {
 		this.includeModifid = includeModifid;
 	}
 }
+

@@ -8,11 +8,11 @@ import java.awt.event.ActionListener;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
-import jakarta.swing.ButtonGroup;
-import jakarta.swing.JPanel;
-import jakarta.swing.JRadioButton;
-import jakarta.swing.JScrollPane;
-import jakarta.swing.JTextArea;
+import javax.swing.ButtonGroup;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -106,3 +106,4 @@ public final class AgreementPanel extends JPanel {
         disagreeBtn.addActionListener(agreeListener);
     }
 }
+

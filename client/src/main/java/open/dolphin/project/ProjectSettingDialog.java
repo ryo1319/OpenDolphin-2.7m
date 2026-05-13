@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.logging.Level;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 import open.dolphin.client.GUIFactory;
 import open.dolphin.plugin.PluginLoader;
@@ -367,3 +367,4 @@ public final class ProjectSettingDialog implements PropertyChangeListener {
         notifyResult();
     }
 }
+

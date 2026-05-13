@@ -2,7 +2,7 @@ package open.dolphin.impl.img;
 
 
 import java.util.List;
-import jakarta.swing.table.AbstractTableModel;
+import javax.swing.table.AbstractTableModel;
 import open.dolphin.client.ImageEntry;
 
 
@@ -80,3 +80,4 @@ public class ImageTableModel extends AbstractTableModel {
         }
     }
 }
+

@@ -2,7 +2,7 @@ package open.dolphin.impl.pvt;
 
 import java.awt.BorderLayout;
 import java.awt.Font;
-import jakarta.swing.*;
+import javax.swing.*;
 import open.dolphin.client.ClientContext;
 
 /**
@@ -84,3 +84,4 @@ public class WatingListView extends JPanel {
         return pvtInfoLbl;
     }
 }
+

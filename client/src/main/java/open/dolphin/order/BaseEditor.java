@@ -12,13 +12,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-import jakarta.swing.*;
-import jakarta.swing.event.DocumentEvent;
-import jakarta.swing.event.DocumentListener;
-import jakarta.swing.event.ListSelectionEvent;
-import jakarta.swing.event.ListSelectionListener;
-import jakarta.swing.table.TableColumn;
-import jakarta.swing.text.JTextComponent;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.table.TableColumn;
+import javax.swing.text.JTextComponent;
 import open.dolphin.client.AutoKanjiListener;
 import open.dolphin.client.AutoRomanListener;
 import open.dolphin.client.ClientContext;
@@ -947,3 +947,4 @@ public final class BaseEditor extends AbstractStampEditor {
         super(entity, mode);
     }
 }
+

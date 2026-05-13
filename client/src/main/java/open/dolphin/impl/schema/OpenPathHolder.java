@@ -109,3 +109,4 @@ public final class OpenPathHolder implements DrawingHolder {
 	area.transform(trans);
     }
 }
+

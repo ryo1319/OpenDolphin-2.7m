@@ -7,10 +7,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.ResourceBundle;
 import java.util.StringTokenizer;
-import jakarta.swing.*;
-import jakarta.swing.event.DocumentEvent;
-import jakarta.swing.event.DocumentListener;
-import jakarta.swing.event.ListSelectionEvent;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.event.ListSelectionEvent;
 import open.dolphin.client.AbstractMainTool;
 import open.dolphin.client.AddUser;
 import open.dolphin.client.AutoKanjiListener;
@@ -1123,3 +1123,4 @@ public class AddUserImpl extends AbstractMainTool implements AddUser {
         }
     }
 }
+

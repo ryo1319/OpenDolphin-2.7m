@@ -56,3 +56,4 @@ public abstract class AbstractMainTool implements MainTool {
     @Override
     public abstract void stop();
 }
+

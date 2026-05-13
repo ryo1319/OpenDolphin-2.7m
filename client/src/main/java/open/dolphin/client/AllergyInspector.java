@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.event.ListSelectionEvent;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.helper.DBTask;
 import open.dolphin.infomodel.AllergyModel;
@@ -312,3 +312,4 @@ public final class AllergyInspector {
         task.execute();
     }
 }
+

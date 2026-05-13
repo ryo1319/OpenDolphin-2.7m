@@ -93,3 +93,4 @@ public final class PluginLoader<S> {
 	return PluginLoader.load(plugin, cl);
     }
 }
+

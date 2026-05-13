@@ -223,3 +223,4 @@ public class AttachmentOrInlineView extends javax.swing.JPanel {
         return typeLbl;
     }
 }
+

@@ -124,3 +124,4 @@ public final class NewKarteParams {
         initialSelectedInsurance = index;
     }
 }
+

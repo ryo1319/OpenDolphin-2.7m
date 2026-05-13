@@ -63,3 +63,4 @@ public class LoginDialogProxy implements ILoginDialog {
         return null;
     }
 }
+

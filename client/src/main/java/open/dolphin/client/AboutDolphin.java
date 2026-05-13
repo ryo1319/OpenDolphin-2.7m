@@ -5,8 +5,8 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
-import jakarta.swing.*;
-import jakarta.swing.table.AbstractTableModel;
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
 import open.dolphin.infomodel.UserModel;
 import open.dolphin.project.Project;
 import open.dolphin.table.StripeTableCellRenderer;
@@ -317,3 +317,4 @@ public final class AboutDolphin  {
         dialog.setVisible(true);
     }
 }
+

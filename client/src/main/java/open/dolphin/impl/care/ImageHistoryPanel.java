@@ -9,10 +9,10 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 import java.util.List;
-import jakarta.swing.*;
-import jakarta.swing.table.AbstractTableModel;
-import jakarta.swing.table.DefaultTableCellRenderer;
-import jakarta.swing.table.TableColumn;
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.TableColumn;
 import open.dolphin.client.ImageEntry;
 import open.dolphin.delegater.DocumentDelegater;
 import open.dolphin.dto.ImageSearchSpec;
@@ -259,3 +259,4 @@ public class ImageHistoryPanel extends JPanel implements PropertyChangeListener 
         }
     }
 }
+

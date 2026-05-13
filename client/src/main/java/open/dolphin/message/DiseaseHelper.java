@@ -132,3 +132,4 @@ public final class DiseaseHelper {
         this.diagnosisModuleItems = diagnosisModuleItems;
     }
 }
+

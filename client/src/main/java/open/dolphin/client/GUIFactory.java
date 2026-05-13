@@ -3,8 +3,8 @@ package open.dolphin.client;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusListener;
-import jakarta.swing.*;
-import jakarta.swing.event.DocumentListener;
+import javax.swing.*;
+import javax.swing.event.DocumentListener;
 
 /**
  * @author Kazushi Minagawa Digital Globe, Inc.
@@ -228,3 +228,4 @@ public class GUIFactory {
         return dropOkColor;
     }
 }
+

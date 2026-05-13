@@ -78,3 +78,4 @@ public class StubI18N extends ProjectStub {
         return false;
     }
 }
+

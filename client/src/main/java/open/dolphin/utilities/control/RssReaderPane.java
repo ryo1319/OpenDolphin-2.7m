@@ -21,15 +21,15 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jakarta.swing.JDialog;
-import jakarta.swing.JFrame;
-import jakarta.swing.JLabel;
-import jakarta.swing.JPanel;
-import jakarta.swing.JScrollPane;
-import jakarta.swing.WindowConstants;
-import jakarta.xml.parsers.DocumentBuilder;
-import jakarta.xml.parsers.DocumentBuilderFactory;
-import jakarta.xml.parsers.ParserConfigurationException;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.WindowConstants;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import open.dolphin.client.ClientContext;
 import open.dolphin.impl.login.AbstractLoginDialog;
 import open.dolphin.utilities.common.CommonDefImpl;
@@ -242,3 +242,4 @@ public class RssReaderPane {
         }
     }
 }
+

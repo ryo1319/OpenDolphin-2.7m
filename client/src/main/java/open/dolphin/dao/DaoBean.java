@@ -132,3 +132,4 @@ public class DaoBean {
         return msf.format(obj);
     }
 }
+

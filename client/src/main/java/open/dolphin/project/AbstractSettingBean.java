@@ -88,3 +88,4 @@ public abstract class AbstractSettingBean implements SettingBean {
         return ret;
     }
 }
+

@@ -8,7 +8,7 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
-import jakarta.swing.*;
+import javax.swing.*;
 
 /**
  * ツールチップ拡張クラス
@@ -104,3 +104,4 @@ public class ToolTipEx extends JToolTip {
         //});
     }
 }
+

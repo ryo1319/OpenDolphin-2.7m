@@ -9,3 +9,4 @@ public interface NewKarte extends MainTool {
     public void addNewKarte();
     
 }
+

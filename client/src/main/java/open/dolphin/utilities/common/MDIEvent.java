@@ -4,11 +4,11 @@
  */
 package open.dolphin.utilities.common;
 
-import jakarta.swing.DefaultDesktopManager;
-import jakarta.swing.JComponent;
-import jakarta.swing.JInternalFrame;
-import jakarta.swing.event.InternalFrameEvent;
-import jakarta.swing.event.InternalFrameListener;
+import javax.swing.DefaultDesktopManager;
+import javax.swing.JComponent;
+import javax.swing.JInternalFrame;
+import javax.swing.event.InternalFrameEvent;
+import javax.swing.event.InternalFrameListener;
 
 /**
  *
@@ -217,3 +217,4 @@ class DesktopManagerEx extends DefaultDesktopManager {
         super.setBoundsForFrame(c, newX, newY, newW, newH);
     }
 }
+

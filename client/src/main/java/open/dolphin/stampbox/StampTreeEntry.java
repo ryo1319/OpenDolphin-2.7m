@@ -52,3 +52,4 @@ public class StampTreeEntry {
         return treeXml;
     }
 }
+

@@ -2,8 +2,8 @@ package open.dolphin.stampbox;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
-import jakarta.swing.JComponent;
-import jakarta.swing.TransferHandler;
+import javax.swing.JComponent;
+import javax.swing.TransferHandler;
 import open.dolphin.client.LocalStampTreeNodeTransferable;
 
 /**
@@ -40,3 +40,4 @@ public class AspStampTreeTransferHandler extends TransferHandler {
         return false;
     }
 }
+
